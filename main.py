@@ -13,8 +13,9 @@ for i in range(10):
     r = requests.get(url, params=par)
     e = r.json()
     x.append(e)
-for j in x:
-    y = j['items']
+
+for vacancy in x:
+    y = vacancy['items']
     # объявляем переменную n для подсчета, количества итераций цикла перебирающего зарплаты в вакансиях
     n = 0
     # объявляем переменную sum_zp для подсчета, суммы зарплат в вакансиях
