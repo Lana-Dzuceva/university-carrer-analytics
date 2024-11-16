@@ -8,3 +8,5 @@ university career analytics, recommendations and improvements
 [диплом Стаса Джикаева](https://docs.google.com/document/d/1kQipwuVLitPDB8XvRb8XKx80p3vF8awM/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
 
 [диплом Жени](https://docs.google.com/document/d/13ttOmQabYnUUZ9zBcbzWzMfNLXYjHsgQ/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
+
+[Язык поисковых запросов](https://vladikavkaz.hh.ru/article/1175)
