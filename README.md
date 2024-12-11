@@ -9,4 +9,5 @@ university career analytics, recommendations and improvements
 
 [диплом Жени](https://docs.google.com/document/d/13ttOmQabYnUUZ9zBcbzWzMfNLXYjHsgQ/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
 
+[документация](https://api.hh.ru/openapi/redoc#tag/Poisk-vakansij/)
 [Язык поисковых запросов](https://vladikavkaz.hh.ru/article/1175)
