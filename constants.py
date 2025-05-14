@@ -2,8 +2,8 @@ TOKEN = ""
 
 
 VACANCY_TITLES = {
-    "c_sharp" : """"
-      (
+    "c_sharp": """"
+    
       C# OR 
       .Net OR
       C# разработчик OR
@@ -13,15 +13,15 @@ VACANCY_TITLES = {
       ASP.NET разработчик OR
       Fullstack-разработчик C# OR
       C# backend
-      )
-       AND (NOT UNITY AND NOT "Unreal Engine" AND NOT преподаватель AND NOT учитель AND NOT Лектор)
+      
       """,
+    #() AND(NOT UNITY AND NOT "Unreal Engine" AND NOT преподаватель AND NOT учитель AND NOT Лектор)
 
-    "flutter" : "Flutter",
+    "flutter": "Flutter",
 
-    "golang" : """golang OR "go developer" """,
+    "golang": """golang OR "go developer" """,
 
-    "web" : """
+    "web": """
         Web-developer OR
         Веб-разработчик OR
         Frontend-разработчик OR
@@ -45,7 +45,7 @@ VACANCY_TITLES = {
         AND (NOT преподаватель AND NOT учитель AND NOT Лектор)
     """,
 
-    "data_science" : """ 
+    "data_science": """ 
         ML OR
         "Machine Learning" OR
         "Data Science" OR
@@ -58,14 +58,14 @@ VACANCY_TITLES = {
         "Дата Сайентист"
     """,
 
-    "1c" : """
+    "1c": """
         "программист 1С" OR
         "разработчик 1С" OR
         "инженер 1С" OR
         "стажер 1С"
     """,
 
-    "system_administrator" : """
+    "system_administrator": """
         Сетевой инженер OR
         Системный администратор OR
         Инженер по сетям OR
@@ -92,6 +92,7 @@ VACANCY_TITLES = {
         Инженер по WAN/LAN OR
         Инженер связи
     """,
+
     "python": """
     python AND NOT (
         ML OR
