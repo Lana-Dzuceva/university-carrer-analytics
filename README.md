@@ -11,3 +11,7 @@ university career analytics, recommendations and improvements
 
 [документация](https://api.hh.ru/openapi/redoc#tag/Poisk-vakansij/)
 [Язык поисковых запросов](https://vladikavkaz.hh.ru/article/1175)
+
+
+streamlit run your_script.py [-- script args]
+

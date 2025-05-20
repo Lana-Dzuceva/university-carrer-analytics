@@ -1,0 +1,2505 @@
+[
+    {
+        "id": "109095320",
+        "premium": false,
+        "billing_type": {
+            "id": "standard_plus",
+            "name": "Стандарт плюс"
+        },
+        "relations": [],
+        "name": "Junior Backend разработчик (Python)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 90000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>IT компания MA </strong>- крупнейший провайдер данных о товарах и ценах для федеральных розничных сетей. Компания основана в 2012 году, резидент Сколково, аккредитована в Минцифры.</p> <p>У нас есть 2 продукта:</p> <ul> <li><strong>MA.works </strong>- наш основной текущий бизнес. Большой и сложный программный комплекс, который позволяет нам собирать и обрабатывать миллионы строк данных для корпоративных заказчиков.</li> <li><strong>MA.direct </strong>- наш новый продукт. SaaS решение для малого и среднего бизнеса для управления полевым персоналом и последующей обработки данных.</li> </ul> <p>Мы собираем и обрабатываем данные из розничных магазинов для крупных корпоративных заказчиков. Наша задача делать это качественно и быстро. Для этого мы разработали систему, с помощью которой управляем исполнителями по всей стране в режиме 24/7, а это тысячи пользователей, миллионы строк данных, десятки внутренних сервисов.</p> <p><strong>Наш IT продукт</strong> — не просто набор фич, которые необходимо реализовать. У нас многофункциональная микросервисная архитектура. Мы разрабатываем собственные продукты, сами назначаем планы разработки и сроки, ни от кого не зависим.</p> <p>У нас вас ждет атмосфера в духе, который мы все ищем: высокие темпы разработки (релизы несколько раз в неделю), реальная возможность влиять на принятие технических решений.</p> <p>Сейчас мы в поиске <strong>Python-разработчика со знанием Django</strong>.</p> <p><strong>Основа технологии</strong> — серверная платформа <strong>(Linux / PostgreSQL / Redis / RoR / Go microservices)</strong>, взаимодействующая с веб-приложениями <strong>(Angular)</strong> и мобильными приложениями <strong>(на Flutter)</strong>.</p> <p><strong>Взаимодействие</strong>: jira, git, discord.</p> <p><strong>Какая основная задача будет перед вами стоять:</strong></p> <p>Принимать участие в проектировании и разработке нашей системы – софта для автоматизации управления полевым персоналом. Предстоит писать отдельные сервисы с нуля.</p> <p>Взаимодействие предстоит со старшими разработчиками и продакт оунером. Будет код-ревью, возможность влиять на процесс разработки, на архитектуру системы. У вас будет свобода в принятии технических решений. Мы ожидаем, что вы можете быть самостоятельным в решении стоящих перед вами задач.</p> <p><strong>Требуемый опыт:</strong></p> <ul> <li>Python;</li> <li>Django;</li> <li>PostgreSQL;</li> <li>Linux.</li> </ul> <p><strong>Отлично, если вы работали с:</strong></p> <ul> <li>gRPC;</li> <li>Docker;</li> <li>Ruby on Rails;</li> <li>FastAPI, SQLalchemy.</li> </ul> <p><strong>Почему именно мы:</strong></p> <ul> <li>Работа в стабильной IT компании (есть аккредитация в Минцифре) с технологичными продуктами. Мы устойчиво растем уже 10 лет;</li> <li>Официальное трудоустройство по ТК РФ, полностью &quot;белая&quot; зарплата;</li> <li>Удобный график с гибким началом рабочего дня;</li> <li>Возможность работать удаленно, по гибридному графику или в офисе;</li> <li>Обучение и развитие: компания компенсирует профессиональное обучение;</li> <li>Ежемесячная компенсация каршеринга;</li> <li>Небольшая, очень бодрая и целеустремленная команда, которой мы гордимся;</li> <li>Отсутствие дресс-кода, бюрократии, формализма в процессах и коммуникациях.</li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "Linux"
+            },
+            {
+                "name": "PostgreSQL"
+            },
+            {
+                "name": "Django Framework"
+            },
+            {
+                "name": "Ruby On Rails"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Atlassian Jira"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "863273",
+            "name": "MillionAgents",
+            "url": "https://api.hh.ru/employers/863273?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/863273",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/668636.png",
+                "240": "https://img.hhcdn.ru/employer-logo/3115677.png",
+                "90": "https://img.hhcdn.ru/employer-logo/3115676.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=863273&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-10T01:17:00+0300",
+        "created_at": "2024-11-10T01:17:00+0300",
+        "initial_created_at": "2024-10-23T01:17:00+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109095320",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/109095320",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110316574",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Программирование и настройки дронов",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "2061",
+            "name": "Подольск (Московская область)",
+            "url": "https://api.hh.ru/areas/2061?host=hh.ru"
+        },
+        "salary": {
+            "from": 120000,
+            "to": 180000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Подольск",
+            "street": "улица Клемента Готвальда",
+            "building": "6В",
+            "lat": 55.423366,
+            "lng": 37.52978,
+            "description": null,
+            "raw": "Подольск, улица Клемента Готвальда, 6В",
+            "metro": {
+                "station_name": "Подольск",
+                "line_name": "МЦД-2",
+                "station_id": "132.743",
+                "line_id": "132",
+                "lat": 55.431667,
+                "lng": 37.565
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Подольск",
+                    "line_name": "МЦД-2",
+                    "station_id": "132.743",
+                    "line_id": "132",
+                    "lat": 55.431667,
+                    "lng": 37.565
+                }
+            ]
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>Обязанности</strong></p> <p><strong>программирование разработка по для дронов</strong></p> <p><strong>Требования:</strong></p> <p>Ardupilot<br />Lua<br />C++<br />C - arduino<br />Flutter-Dart<br />MAVLINK</p> <p><br /><strong>Условия</strong></p> <p><strong>будут командировки по РФ, я очень адекватный и весёлый работодатель, я очень ценю работников.</strong></p> <p> </p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Ardupilot"
+            },
+            {
+                "name": "MAVLINK"
+            }
+        ],
+        "accept_handicapped": true,
+        "accept_kids": true,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": true,
+        "employer": {
+            "id": "3377589",
+            "name": "СДО ПРОФ",
+            "url": "https://api.hh.ru/employers/3377589?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/3377589",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/810978.png",
+                "240": "https://img.hhcdn.ru/employer-logo/3684800.png",
+                "90": "https://img.hhcdn.ru/employer-logo/3684799.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3377589&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-07T13:07:00+0300",
+        "created_at": "2024-11-07T13:07:00+0300",
+        "initial_created_at": "2024-11-07T13:07:00+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110316574",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110316574",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110249509",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Разработчик мобильных приложений",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "107",
+            "name": "Чебоксары",
+            "url": "https://api.hh.ru/areas/107?host=hh.ru"
+        },
+        "salary": {
+            "from": 50000,
+            "to": 100000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Чебоксары",
+            "street": "улица Карла Маркса",
+            "building": "52к9",
+            "lat": 56.13467908415049,
+            "lng": 47.244125174273066,
+            "description": null,
+            "raw": "Чебоксары, улица Карла Маркса, 52к9",
+            "metro": null,
+            "metro_stations": []
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>Привет!</strong><br />Меня зовут Анастасия, я HR-менеджер в компании “Команда F5”.<br />Сейчас мы ищем разработчика мобильных приложений для работы в офисе, которые разрабатывают на Flutter, для реализации новых приложений с нуля и для поддержки существующих проектов.</p> <p><strong>О компании:</strong></p> <p>Команда F5 – сертифицированный партнер amoCRM в списке Топ-1 по всему Миру.<br />Мы - Команда специалистов в области автоматизации бизнес-процессов и системного интернет-маркетинга. Мы уверены в том, что системный подход и автоматизация бизнес-процессов — это рывок для любого бизнеса.</p> <p>Среди наших клиентов Skyeng, SkillBox, Нетология, Skolkovo resident, Ланит, Selectel, Яндекс, Технониколь, СБЕР, Тинькофф, Совкомбанк, ВКонтакте, Mail.ru group и еще 150+ довольных сетей.</p> <p><strong>Почему открыта вакансия:</strong></p> <p>Каждый год мы кратно растем. И в 2024 году поставили цель вырасти в 2 раза по выручке и количеству клиентов. Сейчас мы активно развиваем коммерческую мобильную разработку и реализуем действительно интересные проекты для наших клиентов.<br /><br />Чтобы сделать новый рывок в росте и развитии, пополняем ряды нашей дружной команды и ищем ответственного, инициативного и внимательного человека на позицию<strong> Junior Mobile Developer.</strong></p> <p><strong>Ты подходишь если:</strong></p> <ul> <li> <p>Умеешь разрабатывать на Flutter на уровне Junior разработчика;</p> </li> <li> <p>Понимаешь клиент-серверное взаимодействие;</p> </li> <li> <p>Пишешь читаемый код с комментариями;</p> </li> <li> <p>Понимаешь работу минимум одного стейт-менеджера (BloC, Riverpod).</p> </li> </ul> <p><strong>Плюсом будет если ты:</strong></p> <ul> <li> <p>Имеешь коммерческий опыт работы или Реализованный Pet-проект;</p> </li> <li> <p>Понимаешь работу Backend части приложения;</p> </li> <li> <p>Умеешь работать с макетами в Figma;</p> </li> <li> <p>Понимаешь требования к приложениям со стороны App Store и Play Market;</p> </li> <li> <p>Имеешь собственные проекты на Github;</p> </li> <li> <p>Умеешь разбираться в чужом коде;</p> </li> <li> <p>Имеешь опыт откладки на Swift и Kotlin.</p> </li> </ul> <p><strong>Условия:</strong></p> <ul> <li> <p>Оплачиваемое обучение с наставником;</p> </li> <li> <p>Карьерный рост;</p> </li> <li> <p>Современный офис в центре города со спортивным инвентарем, чай и кофе;</p> </li> <li> <p>Полностью белая зарплата и оформление по ТК РФ;</p> </li> <li> <p>Супер-классный коллектив и прекрасный руководитель;</p> </li> <li> <p>Корпоративы, подарки, бонусы (вылазки на природу, компьютерные игры, корпоративный абонемент в тренажерный зал, настолки, теннис и аэрохоккей);</p> </li> <li> <p>Доступ к корпоративной библиотеке;</p> </li> <li> <p>Обучение в образовательных платформах с 50% скидкой (Skillbox, SkillFactory);</p> </li> <li> <p>В теме сопроводительного письма напишите имя любимого супер-героя;</p> </li> <li> <p>Современный, просторный и уютный офис в центре города;</p> </li> <li> <p>График 5/2 с 09:00 до 18:00;</p> </li> <li> <p>Оформление по ТК РФ с 1 дня выхода на работу.</p> </li> </ul> <p><strong>Если тебя заинтересовала эта вакансия, оставляй отклик, чтобы не упустить возможность устроиться на работу, которая будет тебе нравиться.</strong></p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "MVC"
+            },
+            {
+                "name": "Ajax"
+            },
+            {
+                "name": "ООП"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "Android"
+            },
+            {
+                "name": "iOS"
+            },
+            {
+                "name": "Мобильные приложения"
+            },
+            {
+                "name": "BloC"
+            },
+            {
+                "name": "Figma"
+            },
+            {
+                "name": "Swift"
+            },
+            {
+                "name": "Kotlin"
+            },
+            {
+                "name": "Riverpod"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "1308904",
+            "name": "Команда Ф5",
+            "url": "https://api.hh.ru/employers/1308904?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/1308904",
+            "logo_urls": {
+                "90": "https://img.hhcdn.ru/employer-logo/915866.png",
+                "240": "https://img.hhcdn.ru/employer-logo/915867.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/43639.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1308904&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-11-08T09:29:39+0300",
+        "created_at": "2024-11-08T09:29:39+0300",
+        "initial_created_at": "2024-11-06T14:25:50+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110249509",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110249509",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110446702",
+        "premium": false,
+        "billing_type": {
+            "id": "standard_plus",
+            "name": "Стандарт плюс"
+        },
+        "relations": [],
+        "name": "Python-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 200000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<strong>О проекте: </strong><br /><br />Ищем python-разработчика middle/ middle+ в команду крупного банка страны на проект по разработки ПО по продажам :)<br /><br />Обязанности: <ul> <li> <p>Разработка программного обеспечения с использованием языка программирования Python;</p> </li> <li> <p>Поддержка и улучшение существующего программного обеспечения;</p> </li> <li> <p>Написание и запуск тестов для проверки работоспособности и качества своего кода;</p> </li> <li> <p>Отладка и оптимизация приложений;</p> </li> </ul> <strong>Требования:</strong> <ul> <li> <p>Хорошее знание фреймворков FastAPI</p> </li> <li> <p>Хорошее знание SQL;</p> </li> <li> <p>Понимание принципов ООП (SOLID, DRY, KISS);</p> </li> <li> <p>Уверенный уровень владения Git и командной строки;</p> </li> <li> <p>Опыт работы с публичными API;</p> </li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li> <p>Опыт работы с Postgres, Docker</p> </li> <li> <p>Опыт разработки flutter-приложений (flet.dev)</p> </li> <li> <p>Навыки проектирования API (REST);</p> </li> <li> <p>Понимание как оптимизировать SQL-запросы в ORM (SQLAlchemy, Alembic, Django ORM);</p> </li> <li> <p>Знание Redis, MongoDB, Celery или RabbitMQ/Kafka</p> </li> </ul> <strong>Условия:</strong> <ul> <li><strong>Оформление по аутстафу (ИП/ТК РФ);</strong></li> <li><strong>Компенсация ДМС спустя 6 месяцев работы;</strong></li> <li><strong>График работы 5/2 на гибриде; </strong></li> <li>При необходимости выдается оборудование.</li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "SQL"
+            },
+            {
+                "name": "API"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Redis"
+            },
+            {
+                "name": "SQLAlchemy"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "FastAPI"
+            },
+            {
+                "name": "Django Framework"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "RabbitMQ"
+            },
+            {
+                "name": "Docker"
+            },
+            {
+                "name": "Flutter"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "1664868",
+            "name": "CORE",
+            "url": "https://api.hh.ru/employers/1664868?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/1664868",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/994169.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5597472.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5597473.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1664868&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-11-08T18:07:22+0300",
+        "created_at": "2024-11-08T18:07:22+0300",
+        "initial_created_at": "2024-11-08T18:07:22+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110446702",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110446702",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110264487",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Python Developer",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": null,
+            "to": 350000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Мы европейский активно развивающийся <strong>стартап-проект базирующийся в UK</strong>, создающий <strong>приложения для спорта и фитнеса.</strong></p> <p>Мы активно развиваемся по этому находимся в поиске <strong>опытного Python</strong> разработчика чтобы усилить нашу команду</p> <p><strong>Стек:</strong> Python, Django, Flutter, PostgreSQL, AWS, Redshift, k8s</p> <p><strong>Мы гарантируем нашему будущему коллеге:</strong></p> <ul> <li><strong>Высокая заработная плата</strong> исходя из твоих ожиданий;</li> <li>Полностью <strong>удаленный формат работы</strong>;</li> <li><strong>Любой комфортный</strong> формат трудоустройства;</li> <li><strong>Поддержка и помощь</strong> в работе с действительно уникальным и сложным проектом.</li> </ul> <p><strong>Наши пожелания к кандидатам:</strong></p> <ul> <li> <p>Опыт работы с <strong>Python от 2 лет</strong>;</p> </li> <li> <p>Опыт работы с фреймворками, <strong>такими как Django, FastApi</strong>;</p> </li> <li> <p>Опыт работы как с<strong> реляционными базами данных</strong>, так и <strong>NoSQL</strong> базами данных (MongoDB, Redis и т.д.);</p> </li> <li> <p><strong>Английский язык от B2</strong> как для чтения технической документации, так и общения с командой;</p> </li> <li> <p>Опыт работы<strong> с системами контроля версий</strong>, такими как Git.</p> </li> </ul> <p><strong>Чем предстоит заниматься?</strong></p> <ul> <li> <p>Разработка высококачественного программного обеспечения на Python;</p> </li> <li> <p>Участие в проектировании архитектуры приложений и выборе технологических решений;</p> </li> <li> <p>Оптимизация и поддержка существующего кода;</p> </li> <li> <p>Тестирование и отладка программного обеспечения;</p> </li> <li> <p>Взаимодействие с другими членами команды для достижения общих целей проекта.</p> </li> </ul> <p><strong>Мы уже ждем, что ты станешь частью нашей дружной команды, поэтому откликайся скорее!</strong></p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "PostgreSQL"
+            },
+            {
+                "name": "Django Framework"
+            },
+            {
+                "name": "FastAPI"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "5174849",
+            "name": "Wanted",
+            "url": "https://api.hh.ru/employers/5174849?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/5174849",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1331476.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/6945922.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/6945923.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5174849&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-06T18:31:18+0300",
+        "created_at": "2024-11-06T18:31:18+0300",
+        "initial_created_at": "2024-11-06T18:31:18+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110264487",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110264487",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [
+            {
+                "id": "eng",
+                "name": "Английский",
+                "level": {
+                    "id": "b2",
+                    "name": "B2 — Средне-продвинутый"
+                }
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": "108639751",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Frontend-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>Международная продуктовая IT-компания Yesim ищет опытного Frontend разработчика для расширения нашей команды.</strong></p> <p>Мы работаем над созданием веб и мобильного приложения и приглашаем вас присоединиться к нашей команде под руководством опытного лид-разработчика.</p> <p>Yesim — продуктовая компания, международный проект, который предоставляет первоклассный мобильный интернет для корпоративных и частных путешественников. Мы работаем в 150 странах мира.</p> <p><strong>Условия работы:</strong></p> <ul> <li> <p>Полный рабочий день</p> </li> <li> <p>Удалённая работа</p> </li> </ul> <p><strong>Требования:</strong></p> <ul> <li> <p>Опыт работы с React и Next.js</p> </li> <li> <p>Способность к автономному исследованию и быстрой адаптации к новой информации. Умение расставлять приоритеты и находить решения, в рамках обозначеных сроков.</p> </li> <li> <p>Способночть ориентироваться в технических решениях и вносить предложения основываясь на ресурсозатратности</p> </li> <li> <p>Аналитическое мышление, внесение собственных идей</p> </li> <li> <p>Готовность к командной работе и обмену опытом</p> </li> </ul> <p><strong>Обязанности:</strong></p> <ul> <li> <p>Разработка и поддержка веб-приложений на базе React и Next.js</p> </li> <li> <p>Тесное сотрудничество с дизайнерами для реализации UX/UI решений и поиска оптимальных технических решений решения задачи</p> </li> <li> <p>Работа в тесном взаимодействии с другими членами команды и опытного лид-разработчика</p> </li> </ul> <p><strong>Требования (как преимущества):</strong></p> <ul> <li> <p>Опыт работы с Flutter</p> </li> </ul> <p><strong>Условия найма:</strong></p> <ul> <li> <p>Готовность выполнить тестовое задание (обязательно для участия в процессе отбора)</p> </li> </ul> <p><strong>Наши преимущества:</strong></p> <ul> <li> <p>Полностью удаленная работа</p> </li> <li> <p>Полный цикл разработки, где каждый участник команды занимается своим делом</p> </li> <li> <p>Коммуникация внутри команды</p> </li> <li> <p>Свобода выбора технических решений, внесения конструктивных предложений</p> </li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "NextGIS"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "9917767",
+            "name": "Genesis Group AG",
+            "url": "https://api.hh.ru/employers/9917767?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/9917767",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9917767&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-14T20:54:55+0300",
+        "created_at": "2024-10-14T20:54:55+0300",
+        "initial_created_at": "2024-10-14T20:54:55+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108639751",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108639751",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110259832",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Flutter-разработчик (middle)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 150000,
+            "to": 200000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Дмитровское шоссе",
+            "building": "71Б",
+            "lat": 55.856038,
+            "lng": 37.558921,
+            "description": null,
+            "raw": "Москва, Дмитровское шоссе, 71Б",
+            "metro": null,
+            "metro_stations": []
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Турбоподготовка – одна из крупнейших онлайн-школ подготовки к ЕГЭ. У нас нет скучных преподавателей, однотипных видео-лекций и глупых регламентов. Ежегодно у нас учится более 10 000 учеников, которые по-настоящему влюбляются в наш продукт. Мы умеем делать так, что наши ученики ждут очередного вебинара больше, чем любимый сериал, и в итоге достигают высоких результатов на ЕГЭ.<br /><br />У нас молодая команда из нескольких десятков человек с горящими глазами и колоссальной самоотдачей. У нас очень много идей, и мы всегда открыты для<br />новых. Мы никогда не делаем длинных циклов принятия решения<br />и стараемся всегда действовать на основании данных. У нас молодая, амбициозная команда, которая работает на результат, умеет делиться обратной связью, четко выстраивает процессы. С 2020 года Турбо – резидент Сколково.</p> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li>Разрабатывать наше новое мобильное приложение для личного кабинета ученика;</li> <li>Рефакторинг кода приложения;</li> <li>Анализировать производительность, находить узкие места, заниматься оптимизацией приложения.</li> </ul> <p><strong>Мы ищем вас, если у вас есть:</strong></p> <ul> <li>Опыт разработки мобильных приложений на flutter от 1 года;</li> <li>Опыт разработки приложений &quot;клиент-сервер&quot;;</li> <li>Опыт работы с flutter_bloc, cubit, retrofit, dio;</li> <li>Есть понимание, из каких компонентов строится мобильный UI;</li> <li>Есть понимание, как работают основные сетевые протоколы (HTTP).</li> </ul> <p>Большим плюсом будет:</p> <ul> <li>Опыт работы с Figma;</li> <li>Опыт работы с любой СУБД;</li> <li>Опыт тестирования мобильных приложений.</li> </ul> <p><strong>Что мы даем взамен:</strong></p> <ul> <li> <p>Результаты вашей работы будут влиять на тысячи пользователей;</p> </li> <li> <p>Возможность расти и учиться гораздо быстрее рынка;</p> </li> <li> <p>Возможность использовать передовые технологии в разработке;</p> </li> <li> <p>Рыночная зарплата по результатам собеседования;</p> </li> <li> <p>Отсутствие длинных циклов принятия решений;</p> </li> <li> <p>Возможность работать удаленно;</p> </li> <li> <p>Уютный офис в современном бизнес-центре прямо рядом с метро Верхние Лихоборы.</p> </li> </ul> <strong>Присоединяйтесь к нашей команде!</strong> <p>​​​​​​</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "Retrofit"
+            },
+            {
+                "name": "dio"
+            },
+            {
+                "name": "cubit"
+            },
+            {
+                "name": "flutter_bloc"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "3905710",
+            "name": "Турбоподготовка",
+            "url": "https://api.hh.ru/employers/3905710?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/3905710",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1253747.png",
+                "90": "https://img.hhcdn.ru/employer-logo/6635417.png",
+                "240": "https://img.hhcdn.ru/employer-logo/6635418.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3905710&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-11-06T16:56:33+0300",
+        "created_at": "2024-11-06T16:56:33+0300",
+        "initial_created_at": "2024-11-06T16:56:33+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110259832",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110259832",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "109693446",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Flutter-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 100000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Мы команда &quot;Flyer Servises&quot;</p> <p>Мы ищем Flutter-разработчика уровня Middle/Junior+ для работы в платформенной команде. Предстоит разрабатывать сервисы, которые сделают жизни миллионов людей проще.</p> <p>Стек: Flutter, Dart, Bloc</p> <p>Ожидания для кандидата:</p> <p>1. Знание языка Dart. Типы, асинхронность, многопоточность</p> <p>3. Знание библиотеки bloc</p> <p>4. Знание принципа «Чистая архитектура»</p> <p>5. Понимание создания клиент-северного приложения</p> <p>6. Знание работы отправки и получения http-запросов. Библиотеки dio, retrofit</p> <p>7. Понимание dependency injection (У нас своя реализация через InheritedWidget)</p> <p>Условия:</p> <p>- стабильная З/П, премии по итогам работы;</p> <p>- удаленная работа, очень гибкий график, с возможностью совмещения в т.ч. с учебой;</p> <p>- сильный дружный коллектив;</p> <p>- комфортная корпоративная культура;</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "Bloc"
+            },
+            {
+                "name": "Python"
+            },
+            {
+                "name": "Clean Architecture"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "11547041",
+            "name": "Цифровой Лист",
+            "url": "https://api.hh.ru/employers/11547041?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/11547041",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11547041&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-30T23:24:38+0300",
+        "created_at": "2024-10-30T23:24:38+0300",
+        "initial_created_at": "2024-10-30T23:24:38+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109693446",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/109693446",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "105874654",
+        "premium": false,
+        "billing_type": {
+            "id": "standard_plus",
+            "name": "Стандарт плюс"
+        },
+        "relations": [],
+        "name": "Flutter-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 193000,
+            "to": 200000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p> </p> <p>Условия:</p> <p> </p> <ul> <li>От 2000 USD в месяц;</li> <li>Eжедневная оплата;</li> <li>4-, 6- или 8-часовой рабочий день;</li> <li>Удалённое сотрудничество;</li> <li>Возможен релокейт;</li> <li>Проект - gapopa.dev</li> </ul> <p> </p> <p> </p> <p>Требования:</p> <p> </p> <ul> <li>Понимание принципов UX дизайна;</li> <li>Знание GraphQL и WebSocket;</li> <li>Умение документировать код;</li> <li>Умение покрывать Код юнит и/или интеграционными тестами;</li> <li>Умение читать и понимать техническую литературу на английском языке;</li> <li>Возможность обеспечить качественную аудио и видеосвязь.</li> </ul> <p> </p> <p>Стек технологий:</p> <p> </p> <ul> <li>Язык - Dart;</li> <li>Flutter - фреймворк;</li> <li>Get - Dependency Injection State Management;</li> <li>Navigator 2.0 (Router) - навигация;</li> <li>Firebase - push уведомления;</li> <li>GraphQL и Artemis - связь с бэкендом;</li> <li>Gherkin - E2E тестирование.</li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "5843980",
+            "name": "International Service Management",
+            "url": "https://api.hh.ru/employers/5843980?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/5843980",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/5544241.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/5544240.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/980854.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5843980&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-07T17:58:02+0300",
+        "created_at": "2024-11-07T17:58:02+0300",
+        "initial_created_at": "2024-08-15T16:07:45+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=105874654",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/105874654",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "109687119",
+        "premium": false,
+        "billing_type": {
+            "id": "standard_plus",
+            "name": "Стандарт плюс"
+        },
+        "relations": [],
+        "name": "Java developer(Middle/Senior)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>О нас:</strong></p> <p>Компания &quot;Stack&quot; — динамично развивающаяся аутстаффинговая компания, предоставляющая высококачественные ИТ-услуги для клиентов по всему миру. Мы ищем талантливых и амбициозных разработчиков на позиции Middle/Senior, которые готовы работать с различными технологиями и улучшать бизнес-процессы наших клиентов.</p> <p> </p> <p><strong>Обязанности</strong>:</p> <p> </p> <ul> <li>Разработка, поддержка и оптимизация высоконагруженных веб-приложений.</li> <li>Участие в проектировании архитектуры и выбор технологий для новых систем.</li> <li>Взаимодействие с командой аналитиков и тестировщиков для определения требований и улучшения качества продукта.</li> <li>Рефакторинг и улучшение существующего кода.</li> <li>Участие в код-ревью, предоставление конструктивной обратной связи и помощь менее опытным членам команды.</li> <li>Требования к кандидату:</li> </ul> <p> </p> <p><strong>Обязательные навыки:</strong></p> <p> </p> <ul> <li>Опыт работы с Java: от 3-х лет для средних кандидатов и от 5-ти лет для старших. Знание последней версии Java (11 и выше) и современных библиотек.</li> <li>Опыт работы с фреймворками: знание Spring (Spring Boot, Spring MVC) и Hibernate/JPA.</li> <li>Опыт работы с базами данных: знание реляционных СУБД (PostgreSQL, MySQL) и NoSQL (MongoDB, Redis).</li> <li>Опыт использования систем контроля версий: уверенное знание Git.</li> <li>Разработка RESTful API: опыт проектирования и реализации.</li> <li>Понимание принципов ООП и паттернов проектирования</li> </ul> <p> </p> <p><strong>Желательные навыки:</strong></p> <ul> <li>Умение работать с контейнерами: знание Docker или Kubernetes.</li> <li>Опыт работы с системами CI/CD: Jenkins, GitLab CI и т.д.</li> <li>Общие знания фронтенд-технологий: HTML, CSS, JavaScript, а также фреймворков типа React или Angular.</li> <li>Опыт с микросервисной архитектурой.</li> <li>Знание английского языка на техническом уровне.</li> </ul> <p><strong>Личные качества:</strong></p> <p><br />Умение работать в команде и высокая степень самоорганизации.<br />Устойчивость к стрессу и умение работать в условиях многозадачности.<br />Открытость к обучению и стремление к развитию.</p> <p><strong>Мы предлагаем:</strong></p> <ul> <li>Конкурентная заработная плата.</li> <li>Гибкий график и возможность работать удалённо.</li> <li>Участие в разнообразных проектах с различными заказчиками.</li> <li>Дружелюбная атмосфера и поддержка коллег.</li> </ul> <p>Если вы хотите развивать продукт и работать в команде единомышленников, отправляйте свое резюме!</p> <p>При отклике, пожалуйста, укажите ваш @ТГ.</p> <p>Мы с нетерпением ждем вас в нашей команде!</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Оптимизация кода"
+            },
+            {
+                "name": "Рефакторинг кода"
+            },
+            {
+                "name": "Docker"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "Анализ кода"
+            },
+            {
+                "name": "Angular"
+            },
+            {
+                "name": "React Native"
+            },
+            {
+                "name": "GitLab CI"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "Django Rest Framework"
+            },
+            {
+                "name": "REST API"
+            },
+            {
+                "name": "Docker-compose"
+            },
+            {
+                "name": "JSON API"
+            },
+            {
+                "name": "PostgreSQL"
+            },
+            {
+                "name": "RabbitMQ"
+            },
+            {
+                "name": "Алгоритмы и структуры данных"
+            },
+            {
+                "name": "Sphinx"
+            },
+            {
+                "name": "Apache JMeter"
+            },
+            {
+                "name": "Mockito"
+            },
+            {
+                "name": "Realm"
+            },
+            {
+                "name": "Architecture Framework"
+            },
+            {
+                "name": "Django Framework"
+            },
+            {
+                "name": "Bitbucket"
+            },
+            {
+                "name": "Apache Kafka"
+            },
+            {
+                "name": "High poly"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "11524189",
+            "name": "Stack",
+            "url": "https://api.hh.ru/employers/11524189?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/11524189",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/7006203.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1346565.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/7006202.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11524189&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-08T21:00:17+0300",
+        "created_at": "2024-11-08T21:00:17+0300",
+        "initial_created_at": "2024-10-30T21:00:17+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109687119",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/109687119",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "108667692",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Middle QA Engineer (Mobile & Desktop)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 100000,
+            "to": 120000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Мытная улица",
+            "building": "66",
+            "lat": 55.713136,
+            "lng": 37.620222,
+            "description": null,
+            "raw": "Москва, Мытная улица, 66",
+            "metro": {
+                "station_name": "Тульская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.142",
+                "line_id": "9",
+                "lat": 55.70961,
+                "lng": 37.622569
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Тульская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.142",
+                    "line_id": "9",
+                    "lat": 55.70961,
+                    "lng": 37.622569
+                },
+                {
+                    "station_name": "Шаболовская",
+                    "line_name": "Калужско-Рижская",
+                    "station_id": "6.157",
+                    "line_id": "6",
+                    "lat": 55.718828,
+                    "lng": 37.607892
+                }
+            ]
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "flexible",
+            "name": "Гибкий график"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Мы создаем мобильные и десктопные приложения для чистого и безопасного интернета и уже более 15 лет защищаем пользователей от рекламы, отслеживания, фишинга и других веб-угроз.</p> <p>Мы ищем<strong> специалиста по тестированию </strong>наших новых продуктов в офис на гибридный формат работы.</p> <p><strong>Мы бы хотели видеть человека, который:</strong></p> <ul> <li>Имеет опыт тестирования мобильных, десктопных и/или веб-приложений от 2 лет</li> <li>Умеет работать с инструментами для баг-трекинга (Jira, GitHub)</li> <li>Владеет инструментами диагностики, включая dev tools в браузерах</li> <li>Обладает базовыми знаниями сети и HTTP протокола (методы, коды ответов, cookies)</li> <li>Внимателен к деталям, умеет самостоятельно разбираться в новых задачах и эффективно взаимодействовать с командой</li> <li>Владеет английским языком на уровне не ниже B1 для работы с документацией и командой</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт работы с приложениями на нескольких платформах (Web, iOS, Android, macOS, Windows)</li> </ul> <p><strong>Что нужно будет делать:</strong></p> <ul> <li>Тестировать кросс-платформенные Flutter приложения на 5 различных платформах (Web, iOS, Android, macOS, Windows)</li> <li>Проводить приемочное тестирование pull-реквестов в соответствии с задачами, прописанными в Jira</li> <li>Разрабатывать и поддерживать в актуальном состоянии тестовую документацию, включая тест-кейсы и сценарии</li> <li>Проводить регресс-тестирование после изменений в приложениях</li> <li>Взаимодействовать с разработчиками, дизайнерами и менеджерами для достижения наилучшего качества продукта</li> <li>Участвовать в релизах новых версий </li> </ul> <p><strong>Что мы предлагаем:</strong></p> <ul> <li> <p>Гибридный график с гибким началом рабочего дня (с 10:00 до 11:00). Наш офис находится в Москве у метро Тульская</p> </li> <li> <p>Классная команда и минимум бюрократии</p> </li> <li> <p>Зарплата в рынке с возможностью роста</p> </li> <li> <p>ДМС со стоматологией после испытательного срока</p> </li> <li> <p>Фитнес и йога в офисе, занятия по английскому, китайскому и немецкому онлайн</p> </li> </ul> <p><strong>На текущий момент мы ищем сотрудника в офис, так как в офисе есть вся необходимая техника для тестирования. Однако, некоторое количество дней в неделю можно работать и из дома - мы с радостью готовы обсудить это при встрече:)</strong></p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Тестирование"
+            },
+            {
+                "name": "Английский язык"
+            },
+            {
+                "name": "QA"
+            },
+            {
+                "name": "Ручное тестирование"
+            }
+        ],
+        "accept_handicapped": true,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "124",
+                "name": "Тестировщик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "2675795",
+            "name": "Перформикс",
+            "url": "https://api.hh.ru/employers/2675795?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/2675795",
+            "logo_urls": {
+                "90": "https://img.hhcdn.ru/employer-logo/5988665.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5988666.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1092011.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2675795&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-10-15T12:07:48+0300",
+        "created_at": "2024-10-15T12:07:48+0300",
+        "initial_created_at": "2024-10-15T12:07:48+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108667692",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108667692",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [
+            {
+                "id": "eng",
+                "name": "Английский",
+                "level": {
+                    "id": "b2",
+                    "name": "B2 — Средне-продвинутый"
+                }
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": "110246044",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Flutter-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "77",
+            "name": "Рязань",
+            "url": "https://api.hh.ru/areas/77?host=hh.ru"
+        },
+        "salary": {
+            "from": 200000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "part",
+            "name": "Частичная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<strong>Обязанности:</strong> <p>​​​​​​​</p> <ul> <li> <p>Разработка в паре с опытным программистом</p> </li> <li> <p>Разработка приложения интернет-магазина на базе фреймворка Flutter по готовому API и Дизайну</p> </li> <li> <p>Интеграция с бэкендом на PHP</p> </li> <li> <p>Оптимизация и улучшение производительности приложения</p> </li> <li> <p>Тестирование и отладка кода</p> </li> <li> <p>Участие в проектировании архитектуры приложения</p> </li> <li> <p>Публикация приложения в сторы</p> </li> </ul> <p> </p> <strong>Требования:</strong> <p>​​​​​​​​​​​​​​</p> <ul> <li> <p>Опыт работы с фреймворком Flutter не менее 2 лет</p> </li> <li> <p>Опыт разработки мобильных приложений под Android или iOS</p> </li> <li> <p>Знание основных принципов разработки пользовательского интерфейса и дизайна</p> </li> <li> <p>Умение работать в команде и отличные коммуникативные навыки</p> </li> <li> <p>Стремление к саморазвитию и изучению новых технологий</p> </li> </ul> <strong>Условия:</strong>​​​​​​​ <ul> <li>ВОЗМОЖНО УДАЛЕННАЯ РАБОТА ИЗ любых РЕГИОНОВ!</li> <li>Интересные задачи и развитие за счет компании</li> <li>Команда профессионалов, которые всегда готовы поделиться опытом</li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Android"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "SOAP"
+            },
+            {
+                "name": "REST"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "572713",
+            "name": "Группа компаний Дионис",
+            "url": "https://api.hh.ru/employers/572713?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/572713",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/921885.jpg",
+                "240": "https://img.hhcdn.ru/employer-logo/4128105.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/4128104.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=572713&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-06T13:58:01+0300",
+        "created_at": "2024-11-06T13:58:01+0300",
+        "initial_created_at": "2024-11-06T13:58:01+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110246044",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110246044",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "108342290",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Frontend-разработчик (React)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "72",
+            "name": "Пермь",
+            "url": "https://api.hh.ru/areas/72?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Тебя приветствует компания &quot;ИТ-Сворм&quot;.</p> <p>Мы работаем над новым современным сервисом для участников оконного рынка и ищем в команду опытного Frontend-разработчика, который совместно с backend-разработчиками, тестировщиками, верстальщиками и дизайнерами будет делать самые удобные интерфейсы сервиса - <strong>Framer.ru</strong></p> <p><strong>Ждем от тебя:</strong></p> <ul> <li> <p>Хорошее знание JavaScript/Typescript/React.js: умение писать расширяемый, производительный и поддерживаемый код, понимание концепции компонентного подхода в построении веб-интерфейсов;</p> </li> <li> <p>Знание HTML5, CSS3, опыт кроссплатформенной вёрстки.</p> </li> </ul> <p><strong>Мы используем:</strong></p> <ul> <li> <p>JavaScript / TypeScript;</p> </li> <li> <p>React с Redux + Toolkit;</p> </li> <li> <p>Styled-Components;</p> </li> <li> <p>Storybook (собственный ui-kit),</p> </li> <li> <p>React-admin (админ-панель)</p> </li> <li> <p>Formik;</p> </li> <li> <p>Vite;</p> </li> <li> <p>Git, Gitlab, JIRA.</p> </li> </ul> <p><strong>Дополнительным плюсом будет:</strong></p> <ul> <li> <p>Понимание Observable паттерна;</p> </li> <li> <p>Опыт работы с другими store/state менеджерами (mobx);</p> </li> <li> <p>Знание реляционных СУБД;</p> </li> <li> <p>Знание других языков (dart/flutter, golang);</p> </li> <li> <p>Опыт работы с docker.</p> </li> </ul> <p><strong>Наши методы:</strong></p> <ul> <li> <p>Мы проектируем технические решения и обсуждаем их до реализации. Придерживаемся внутренних style guide, проводим code review, при проектировании думаем о производительности решения. У тебя всегда есть возможность изменить то - что работает не так!</p> </li> </ul> <p><strong>Наши условия:</strong></p> <ul> <li> <p>Достойный уровень ЗП (обсуждается индивидуально по итогам собеседования);</p> </li> <li> <p>Оформление по ТК, стабильная &quot;белая&quot; ЗП, оклад;</p> </li> <li> <p>Формат работы на выбор: удаленно или комфортный офис в центре города Перми (ул. Полины Осипенко, д. 51);</p> </li> <li> <p>Компенсация затрат на спорт в размере 20000 рублей в год;</p> </li> <li> <p>Оплата внешних обучений со стороны компании;</p> </li> <li> <p>Современный стек технологий;</p> </li> <li> <p>Опытные наставники и адекватное руководство заинтересованное в развитии команды;</p> </li> <li> <p>Разносторонние задачи, участие в интересных проектах.</p> </li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "TypeScript"
+            },
+            {
+                "name": "React"
+            },
+            {
+                "name": "Redux"
+            },
+            {
+                "name": "Docker"
+            },
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "Atlassian Jira"
+            },
+            {
+                "name": "Git"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "3857563",
+            "name": "ИТ-Сворм",
+            "url": "https://api.hh.ru/employers/3857563?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/3857563",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/812208.png",
+                "240": "https://img.hhcdn.ru/employer-logo/3689720.png",
+                "90": "https://img.hhcdn.ru/employer-logo/3689719.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3857563&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-02T13:43:06+0300",
+        "created_at": "2024-11-02T13:43:06+0300",
+        "initial_created_at": "2024-10-08T13:16:17+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108342290",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108342290",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "108610879",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Junior Разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "95",
+            "name": "Тюмень",
+            "url": "https://api.hh.ru/areas/95?host=hh.ru"
+        },
+        "salary": {
+            "from": 25000,
+            "to": 60000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Тюмень",
+            "street": "улица Михаила Сперанского",
+            "building": "17",
+            "lat": 57.102875,
+            "lng": 65.573692,
+            "description": null,
+            "raw": "Тюмень, улица Михаила Сперанского, 17",
+            "metro": null,
+            "metro_stations": []
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Привет! В связи с увеличением запросов на разработку мы ищем нового коллегу на фулл-тайм.</p> <p>Мы занимаемся разработкой десктопного продукта на С++, и именно для этого ты нам нужен. Не важно, если ты не работал на языке С++, главное - твердое знание основ программирования.</p> <p>А так же у нас есть продукты на .Net (WPF) и на Flutter, а так же прикладное оборудование на микроконтроллерах на C.</p> <p><strong>Почему стоит выбрать нас?</strong></p> <ul> <li><strong>Обучение и развитие:</strong> сформируем твой образовательный трек.</li> <li><strong>Широкий диапазон задач: </strong>мы найдем, как применить твои существующие навыки</li> <li><strong>Возможность роста: </strong>берешь на себя больше ответственности - получаешь большее вознаграждение</li> <li><strong>Возможность удаленной работы: </strong>после выхода на пик твоего перфоманса ты можешь перевестись на удаленку. Но на старте работа исключительно из нашего офиса.</li> </ul> <p><strong>Основные задачи:</strong></p> <ul> <li>Участие в разработке desktop-приложений на C++ с использованием Embracadero RAD Studio</li> <li>Работа с базами данных MS SQL Server</li> <li>Участие в код-ревью и обсуждении архитектуры приложений</li> <li>Подготовка технической и пользовательской документации</li> </ul> <p><strong>Требования:</strong></p> <ul> <li>Твердые базовые знания программирования, включая ООП. Хорошо если знаешь C++ (или другой C-подобный язык).</li> <li>Понимание работы с SQL и основ реляционных баз данных.</li> <li>Готовность изучать наши инструменты и технологии</li> <li>Умение работать в команде и желание учиться новому.</li> </ul> <p><strong>Процесс отбора:</strong></p> <p>Отбор на вакансию будет включать два этапа:</p> <ol> <li><strong>Общее интервью</strong>, где мы обсудим твой опыт и узнаем больше о тебе.</li> <li><strong>Техническое интервью</strong>, в котором мы проверим твои навыки работы с кодом. Будет задача на чтение кода и задача уровня easy с LeetCode.</li> </ol>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "SQL"
+            },
+            {
+                "name": "C++"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Разработка ПО"
+            },
+            {
+                "name": "ООП"
+            },
+            {
+                "name": "C#"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "5241731",
+            "name": "EasyCeiling",
+            "url": "https://api.hh.ru/employers/5241731?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/5241731",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/6994943.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1343750.png",
+                "90": "https://img.hhcdn.ru/employer-logo/6994942.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5241731&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-14T12:41:50+0300",
+        "created_at": "2024-10-14T12:41:50+0300",
+        "initial_created_at": "2024-10-14T12:41:50+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108610879",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108610879",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "109427571",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Backend-разработчик PHP / Битрикс",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": 160000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "2-й Рощинский проезд",
+            "building": "8с1",
+            "lat": 55.70632,
+            "lng": 37.603469,
+            "description": null,
+            "raw": "Москва, 2-й Рощинский проезд, 8с1",
+            "metro": {
+                "station_name": "Ленинский проспект",
+                "line_name": "Калужско-Рижская",
+                "station_id": "6.74",
+                "line_id": "6",
+                "lat": 55.70678,
+                "lng": 37.58499
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Ленинский проспект",
+                    "line_name": "Калужско-Рижская",
+                    "station_id": "6.74",
+                    "line_id": "6",
+                    "lat": 55.70678,
+                    "lng": 37.58499
+                },
+                {
+                    "station_name": "Площадь Гагарина",
+                    "line_name": "МЦК",
+                    "station_id": "95.534",
+                    "line_id": "95",
+                    "lat": 55.706944,
+                    "lng": 37.585833
+                },
+                {
+                    "station_name": "Тульская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.142",
+                    "line_id": "9",
+                    "lat": 55.70961,
+                    "lng": 37.622569
+                }
+            ]
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Требуется PHP-разработчик!</p> <p><strong>Чем мы занимаемся:</strong></p> <ul> <li>Корпоративным сайтом крупной компании с высокими требованиями к качеству и отказоустойчивости (Битрикс),</li> <li>Сайтом конкурсов с сервисами для организаторов и модераторов (Битрикс),</li> <li>Проектом спортивной статистики с бизнес-процессом для зарегистрированных пользователей (Битрикс),</li> <li>Корпоративными порталами на базе Битрикс24,</li> <li>Мобильными приложениями под iOS, Android на базе Flutter,</li> <li>Собственными приложениями для диджитал, мессенджеров и социальных сетей (Laravel / Symfony).</li> </ul> <p><strong>Ожидаем:</strong></p> <ul> <li>Знание языка PHP (ООП)</li> <li>Знание Bitrix Framework (D7)</li> <li>Опыт работы с системами контроля версий (git)</li> <li>Понимание теории реляционных баз данных / SQL</li> <li>Представление о JS, HTML, CSS</li> <li>Умение разбираться в чужом коде</li> <li>Стремление учиться и развиваться</li> </ul> <p> </p> <p><strong>Как плюс:</strong></p> <ul> <li>Опыт работы с Битрикс / Laravel / Symfony</li> <li>Знание паттернов проектирования (MVC)</li> <li>Знание другого языка программирования (JavaScript, Dart, Java) или желание его изучать</li> </ul> <p> </p> <p><strong>Чем придётся заниматься:</strong></p> <ul> <li>Разрабатывать и поддерживать сайты и веб-приложения</li> <li>Разрабатывать бэкенд мобильных приложений</li> <li>Изучать и внедрять новые технологии</li> <li>Участвовать в работе по отказоустойчивости и информационной безопасности</li> </ul> <p>Мы не веб-студия, где создание сайтов на потоке и где требуется собирать сайты один похожий на другой. Большинство наших задач уникально и требует своего продуманного решения.</p> <strong>Условия:</strong> <ul> <li>График работы пн-пт, 10-19</li> <li>Работа в офисе недалеко от м. Ленинский проспект, удаленно или смешанный график</li> <li>Молодой дружный коллектив</li> <li>Содействие профессиональному обучению и сертификации</li> </ul> <p> </p> <p>Будем рады увидеть в отклике ссылки на проекты, которые вы делали.</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "PHP"
+            },
+            {
+                "name": "MySQL"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "jQuery"
+            },
+            {
+                "name": "SQL"
+            },
+            {
+                "name": "HTML5"
+            },
+            {
+                "name": "Linux"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "SVN"
+            },
+            {
+                "name": "1С-Битрикс"
+            },
+            {
+                "name": "Битрикс24"
+            },
+            {
+                "name": "Битрикс"
+            },
+            {
+                "name": "php8"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "637881",
+            "name": "Агентство Социальные Сети",
+            "url": "https://api.hh.ru/employers/637881?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/637881",
+            "logo_urls": {
+                "90": "https://img.hhcdn.ru/employer-logo/3220520.png",
+                "240": "https://img.hhcdn.ru/employer-logo/3220521.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/694851.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=637881&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-31T19:22:11+0300",
+        "created_at": "2024-10-31T19:22:11+0300",
+        "initial_created_at": "2024-10-28T08:56:29+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109427571",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/109427571",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "109876936",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Middle QA Engineer / Тестировщик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1550",
+            "name": "Таганрог",
+            "url": "https://api.hh.ru/areas/1550?host=hh.ru"
+        },
+        "salary": {
+            "from": 80000,
+            "to": 150000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Таганрог",
+            "street": "Петровская улица",
+            "building": "89",
+            "lat": 47.217488,
+            "lng": 38.925376,
+            "description": null,
+            "raw": "Таганрог, Петровская улица, 89",
+            "metro": null,
+            "metro_stations": []
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "flexible",
+            "name": "Гибкий график"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Afterlogic в поиске ручного тестировщика уровня Middle и выше.</p> <p><strong>Требования:</strong></p> <ul> <li> <p>Коммерческий опыт тестирования веб-приложений не менее 3 лет;</p> </li> <li> <p>Опыт работы с тест-планами, тест-кейсами;</p> </li> <li> <p>Опыт работы с логами;</p> </li> <li> <p>Знание SQL;</p> </li> <li> <p>Умение анализировать функционал на соответствие требованиям;</p> </li> <li> <p>Понимание принципов тестирования ПО;</p> </li> <li> <p>Опыт работы с автотестами будет плюсом.</p> </li> </ul> <p><strong>Условия:</strong></p> <ul> <li>Аккредитованная IT-компания;</li> <li>Full-time, гибкий и лояльный график, можно работать из офиса/гибридно/удаленно;</li> <li>Офис в центре Таганрога с видом на море и верандой для отдыха (5 этаж ТОЦ «Андреевский»);</li> <li>Оформление по ТК;</li> <li>Соцпакет;</li> <li>Зарплата обсуждаемая, зависит от твоих скилов;</li> <li>Бесплатные курсы английского языка для сотрудников;</li> <li>Корпоративные поездки за счёт компании;</li> <li>В офисе вкусный чай, кофе, печенье и свежие фрукты для поддержания тонуса и хорошего настроения;</li> <li>Душ в офисе;</li> <li>Велопарковка;</li> <li>Участие в конференциях и любых мероприятиях для поднятия hard&amp;soft skills за счет компании;</li> <li>Повышение квалификации и прохождение обучающих курсов за счёт компании;</li> <li>Обучение команды: проводим образовательные лекции и внутренние митапы;</li> <li>Подарки от компании на день рождения и важные события;</li> <li>Адекватное руководство с европейским стилем общения, у нас все на «ты»;</li> <li>Отсутствие дресс-кода.</li> </ul> <p><strong>О компании:</strong></p> <p><strong>Входим в ТОП-10 работодателей России // рейтинг Хабр Карьера (в категории компаний от 10 до 100 сотрудников)</strong></p> <p>Работаем на международном рынке с 2002 года. За это время мы успели реализовать сотни проектов для клиентов по всему миру.</p> <p>Мы занимаемся разработкой заказных решений в сфере веб и мобильных приложений, а также создаем собственные IT-продукты, связанные с электронной почтой, файловыми хранилищами, безопасностью и цифровым общением внутри команд.</p> <p><strong>Наши клиенты:</strong> NASA, Cisco, Fuji Xerox, IBM, Motorola, Siemens, CERN, NEC, Volvo, Yandex, The Bank of New York, Airbus, Carnegie Mellon, AT&amp;T, HP, Stackoverflow, VMWare, университеты Berkeley, Harward и др.</p> <p><strong>Ключевые технологии:</strong></p> <p>ㅡ Node.js, TypeScript, PHP, Slim PHP, Laravel, Symfony;</p> <p>ㅡ JS, Vue.js, React, Angular2, Vuex, Nuxt, Webpack, SCSS, Less, Gulp, CSS3;</p> <p>ㅡ Flutter;</p> <p>ㅡ Electron;</p> <p>ㅡ MySQL, PostgreSQL, MongoDB, Redis;</p> <p>ㅡ REST API, Docker, Gitlab CI.</p> <p>Попадая к нам, ты обретаешь не только коллег, но и 50+ отличных друзей, которые развиваются и интересуются тем же самым чем и ты. Все активно встречаются вне работы, играют в игры, ходят в бары и просто ездят в гости :)</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "SQL"
+            },
+            {
+                "name": "Test case"
+            },
+            {
+                "name": "Тестирование"
+            },
+            {
+                "name": "Английский язык"
+            },
+            {
+                "name": "Тестирование пользовательского интерфейса"
+            },
+            {
+                "name": "API"
+            },
+            {
+                "name": "Ручное тестирование"
+            },
+            {
+                "name": "QA"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "124",
+                "name": "Тестировщик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "182032",
+            "name": "Afterlogic Rus",
+            "url": "https://api.hh.ru/employers/182032?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/182032",
+            "logo_urls": {
+                "90": "https://img.hhcdn.ru/employer-logo/6305450.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1171255.png",
+                "240": "https://img.hhcdn.ru/employer-logo/6305451.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=182032&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-11-01T15:41:39+0300",
+        "created_at": "2024-11-01T15:41:39+0300",
+        "initial_created_at": "2024-11-01T15:41:39+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109876936",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/109876936",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "108815713",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Программист-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "project",
+            "name": "Проектная работа"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p> Gybernaty: Строим Будущее Технологий</p> <h2>Революционное Web3 x AI Сообщество Разработчиков</h2> <p> О нас</p> <p>Gybernaty - это передовое децентрализованное технологическое сообщество, объединяющее экспертов в области Web3, AI и Cloud-native технологий. Мы создаем будущее, где технологии служат на благо человечества.</p> <p> Наши проекты</p> <ul> <li>Децентрализованные AI-системы нового поколения</li> </ul> <ul> <li>Web3 социальные платформы с AI-интеграцией</li> </ul> <ul> <li>Квантово-устойчивые криптографические решения</li> </ul> <ul> <li>Автономные AI агенты для DeFi протоколов</li> </ul> <ul> <li>Системы децентрализованной идентификации (DID/Web5)</li> </ul> <p> Технологический стек</p> <p>Frontend Excellence:</p> <ul> <li>React/Next.js 14, Vue.js 3/Nuxt 3</li> </ul> <ul> <li>TailwindCSS/Shadcn UI</li> </ul> <ul> <li>WebAssembly (WASM)</li> </ul> <ul> <li>WebGPU</li> </ul> <ul> <li>TypeScript</li> </ul> <p>Backend Power:</p> <ul> <li>Rust (Axum, Tokio)</li> </ul> <ul> <li>Go (Fiber, Chi)</li> </ul> <ul> <li>Python (FastAPI, Django)</li> </ul> <ul> <li>Node.js (Nest.js)</li> </ul> <p>AI/ML Инновации:</p> <ul> <li>LLM (GPT-4, Claude, Llama 2)</li> </ul> <ul> <li>LangChain/LlamaIndex</li> </ul> <ul> <li>Vector Databases (Qdrant, Weaviate)</li> </ul> <ul> <li>MLOps (Kubeflow, MLflow)</li> </ul> <ul> <li>AutoGPT/BabyAGI</li> </ul> <ul> <li>Edge AI</li> </ul> <p>Web3/Blockchain:</p> <ul> <li>Move (Sui/Aptos)</li> </ul> <ul> <li>Solidity (EVM)</li> </ul> <ul> <li>zkSync/StarkNet</li> </ul> <ul> <li>Zero-Knowledge Proofs</li> </ul> <ul> <li>Quantum-resistant криптография</li> </ul> <ul> <li>IPFS/Filecoin</li> </ul> <p>DevOps/Cloud:</p> <ul> <li>Kubernetes/Docker</li> </ul> <ul> <li>AWS/GCP</li> </ul> <ul> <li>Terraform/Pulumi</li> </ul> <ul> <li>ArgoCD/Flux</li> </ul> <p> Роли и специализации</p> <ul> <li>AI/ML Исследователь</li> </ul> <ul> <li>Blockchain Архитектор</li> </ul> <ul> <li>Full-stack Web3 Разработчик</li> </ul> <ul> <li>DevOps/MLOps Инженер</li> </ul> <ul> <li>Cryptography Специалист</li> </ul> <ul> <li>System Architect</li> </ul> <p> Образовательная программа</p> <ul> <li>System Design для Web3</li> </ul> <ul> <li>AI Safety и этика</li> </ul> <ul> <li>Криптоэкономика и Tokenomics</li> </ul> <ul> <li>Zero-Knowledge Proofs</li> </ul> <ul> <li>Квантовая криптография</li> </ul> <ul> <li>LLM Fine-tuning</li> </ul> <p> Что мы предлагаем</p> <p>Компенсация:</p> <ul> <li> Токены сообщества с реальной ценностью</li> </ul> <ul> <li> Доля в проектах через DAO</li> </ul> <ul> <li> Гранты на исследования</li> </ul> <ul> <li> Pre-sale доступ к токенам новых проектов</li> </ul> <p>Развитие:</p> <ul> <li> Партнерство с ведущими университетами</li> </ul> <ul> <li> Доступ к закрытой технической библиотеке</li> </ul> <ul> <li> Участие в хакатонах</li> </ul> <ul> <li> Возможность патентования разработок</li> </ul> <p>Комьюнити:</p> <ul> <li> Международное сообщество экспертов</li> </ul> <ul> <li> Нетворкинг с лидерами индустрии</li> </ul> <ul> <li> Регулярные офлайн митапы</li> </ul> <ul> <li> Менторство от топ-специалистов</li> </ul> <p> Требования к кандидатам</p> <p>Technical Skills:</p> <ul> <li>Глубокое понимание выбранного стека</li> </ul> <ul> <li>Опыт с распределенными системами</li> </ul> <ul> <li>Знание криптографических примитивов</li> </ul> <ul> <li>Навыки оптимизации производительности</li> </ul> <p>Soft Skills:</p> <ul> <li>Системное мышление</li> </ul> <ul> <li>Быстрая обучаемость</li> </ul> <ul> <li>Проактивность</li> </ul> <ul> <li>Работа с неопределенностью</li> </ul> <ul> <li>Командный дух</li> </ul> <p> Процесс отбора</p> <ul> <li>Рассмотрение портфолио</li> </ul> <ul> <li>Техническое интервью</li> </ul> <ul> <li>Практическое задание</li> </ul> <ul> <li>Культурное собеседование</li> </ul> <ul> <li>Месячная стажировка</li> </ul> <p> Условия работы</p> <ul> <li> Полностью удаленная работа</li> </ul> <ul> <li>⏰ Гибкий график</li> </ul> <ul> <li> Международная команда</li> </ul> <ul> <li> Постоянное развитие</li> </ul> <p> </p> <p> Как присоединиться</p> <p>Отправьте ваше портфолио и краткое описание вашего опыта через любой из указанных каналов связи.</p> <p>---</p> <p>Присоединяйтесь к Gybernaty - где инновации встречаются с возможностями, а технологии создают будущее! Together we build the future! </p> <p>#web3 #ai #blockchain #future #technology #development #dao</p>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "next.js"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "rust"
+            },
+            {
+                "name": "nest.js"
+            },
+            {
+                "name": "supabase"
+            },
+            {
+                "name": "TypeScript"
+            },
+            {
+                "name": "Kubernetes"
+            },
+            {
+                "name": "DevOps"
+            },
+            {
+                "name": "Clickhouse"
+            },
+            {
+                "name": "Docker-compose"
+            },
+            {
+                "name": "FastAPI"
+            },
+            {
+                "name": "Golang"
+            },
+            {
+                "name": "Elasticsearch"
+            },
+            {
+                "name": "Apache Kafka"
+            },
+            {
+                "name": "Apache Cassandra"
+            },
+            {
+                "name": "Apache Airflow"
+            },
+            {
+                "name": "Prometheus"
+            },
+            {
+                "name": "RabbitMQ"
+            },
+            {
+                "name": "Gitlab"
+            },
+            {
+                "name": "CI/CD"
+            },
+            {
+                "name": "GraphQL"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": true,
+        "employer": {
+            "id": "11131363",
+            "name": "Gybernaty",
+            "url": "https://api.hh.ru/employers/11131363?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/11131363",
+            "logo_urls": {
+                "90": "https://img.hhcdn.ru/employer-logo/7020930.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1350247.jpg",
+                "240": "https://img.hhcdn.ru/employer-logo/7020931.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11131363&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-17T18:26:18+0300",
+        "created_at": "2024-10-17T18:26:18+0300",
+        "initial_created_at": "2024-10-17T18:26:18+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108815713",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108815713",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "108639752",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Frontend-разработчик",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "2",
+            "name": "Санкт-Петербург",
+            "url": "https://api.hh.ru/areas/2?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>Международная продуктовая IT-компания Yesim ищет опытного Frontend разработчика для расширения нашей команды.</strong></p> <p>Мы работаем над созданием веб и мобильного приложения и приглашаем вас присоединиться к нашей команде под руководством опытного лид-разработчика.</p> <p>Yesim — продуктовая компания, международный проект, который предоставляет первоклассный мобильный интернет для корпоративных и частных путешественников. Мы работаем в 150 странах мира.</p> <p><strong>Условия работы:</strong></p> <ul> <li> <p>Полный рабочий день</p> </li> <li> <p>Удалённая работа</p> </li> </ul> <p><strong>Требования:</strong></p> <ul> <li> <p>Опыт работы с React и Next.js</p> </li> <li> <p>Способность к автономному исследованию и быстрой адаптации к новой информации. Умение расставлять приоритеты и находить решения, в рамках обозначеных сроков.</p> </li> <li> <p>Способночть ориентироваться в технических решениях и вносить предложения основываясь на ресурсозатратности</p> </li> <li> <p>Аналитическое мышление, внесение собственных идей</p> </li> <li> <p>Готовность к командной работе и обмену опытом</p> </li> </ul> <p><strong>Обязанности:</strong></p> <ul> <li> <p>Разработка и поддержка веб-приложений на базе React и Next.js</p> </li> <li> <p>Тесное сотрудничество с дизайнерами для реализации UX/UI решений и поиска оптимальных технических решений решения задачи</p> </li> <li> <p>Работа в тесном взаимодействии с другими членами команды и опытного лид-разработчика</p> </li> </ul> <p><strong>Требования (как преимущества):</strong></p> <ul> <li> <p>Опыт работы с Flutter</p> </li> </ul> <p><strong>Условия найма:</strong></p> <ul> <li> <p>Готовность выполнить тестовое задание (обязательно для участия в процессе отбора)</p> </li> </ul> <p><strong>Наши преимущества:</strong></p> <ul> <li> <p>Полностью удаленная работа</p> </li> <li> <p>Полный цикл разработки, где каждый участник команды занимается своим делом</p> </li> <li> <p>Коммуникация внутри команды</p> </li> <li> <p>Свобода выбора технических решений, внесения конструктивных предложений</p> </li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "NextGIS"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "9917767",
+            "name": "Genesis Group AG",
+            "url": "https://api.hh.ru/employers/9917767?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/9917767",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9917767&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-10-14T20:54:55+0300",
+        "created_at": "2024-10-14T20:54:55+0300",
+        "initial_created_at": "2024-10-14T20:54:55+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=108639752",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/108639752",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110117813",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "IOS developer (Yappy)",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Ленинградский проспект",
+            "building": "72к4",
+            "lat": 55.80525,
+            "lng": 37.519863,
+            "description": null,
+            "raw": "Москва, Ленинградский проспект, 72к4",
+            "metro": {
+                "station_name": "Аэропорт",
+                "line_name": "Замоскворецкая",
+                "station_id": "2.12",
+                "line_id": "2",
+                "lat": 55.800441,
+                "lng": 37.530477
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Аэропорт",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.12",
+                    "line_id": "2",
+                    "lat": 55.800441,
+                    "lng": 37.530477
+                },
+                {
+                    "station_name": "Красный Балтиец",
+                    "line_name": "МЦД-2",
+                    "station_id": "132.721",
+                    "line_id": "132",
+                    "lat": 55.815514,
+                    "lng": 37.526367
+                },
+                {
+                    "station_name": "Сокол",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.133",
+                    "line_id": "2",
+                    "lat": 55.805564,
+                    "lng": 37.515245
+                }
+            ]
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p>Yappy - соц сеть для просмотра и создания коротких вертикальных роликов.</p> <p><strong>Кого мы ищем:</strong></p> <p>На данный момент мы ищем уверенного, опытного iOS разработчика уровня Senior в команду Стриминга.<br />Вы будите проектировать, разрабатывать и поддерживать работоспособность модуля Чат и Стриминг.<br />Вы будите тесно сотрудничать с командами разных направлений.</p> <p><strong>Основные задачи:</strong></p> <ul> <li>Разработка, внедрение и поддержка модуля Стриминга(HLS) в приложение YAPPY</li> <li> Разработка и добавление функционала чата на сокетах в модуль Стриминга</li> <li>Учавствовать в оценке, декомпозиции и обсуждении задач</li> <li> Проводить кросс-ревью</li> <li> Писать чистый, расширяемый, поддерживаемый код, быстро разбираться в чужом</li> </ul> <p><strong>Что требуется:</strong></p> <ul> <li>Опыт коммерческой разработки SWIFT от 4х лет</li> <li>Уверенное владение UIKit</li> <li> Понимание принципов работы RESTful сервисов, WebSocket для взаимодействия с backend-сервисами</li> <li> Понимание принципов работы с памятью в iOS</li> <li> Опыт разработки приложений, использующих сетевое взаимодействие (Alamofire, Moya)</li> <li> Понимание многопоточности и умение работать с разными потоками (GCD)</li> <li> Понимание основных структур данных (массивы, списки, и т. п.)</li> <li> Умение работать с архитектурами CleanSwift</li> <li> Опыт работы с системами контроля версий (git)</li> <li> Умение работать с Xcode, Jira, Confluence, Gitlab, Figma.</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li><strong> </strong>Широкий кругозор в вопросах стриминга - это большой плюс</li> <li> Опыт работы с HTTP Live Streaming</li> <li> Опыт программирования на flutter, kotlin и backend части</li> <li> Опыт написания unit-тестов</li> <li> Опыт различных автоматизаций процессов разработки (CI/CD)</li> </ul> <p><strong>Что мы предлагаем:</strong></p> <ul> <li>Опыт работы над крупнейшем видеосервисом страны;</li> <li>Работу в команде профессионалов и творческих людей;</li> <li>Достойный уровень дохода (обсуждается индивидуально с каждым кандидатом);</li> <li>Мы оформим ДМС не дожидаясь окончания испытательного срока;</li> <li>Гибкое начало рабочего дня;</li> <li>Удаленная работа с возможностью выхода в офис по желанию.</li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Git"
+            },
+            {
+                "name": "iOS"
+            },
+            {
+                "name": "MVVM"
+            },
+            {
+                "name": "Swift"
+            },
+            {
+                "name": "VIPER"
+            },
+            {
+                "name": "objc"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "1440683",
+            "name": "RUTUBE",
+            "url": "https://api.hh.ru/employers/1440683?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/1440683",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/953534.jpg",
+                "240": "https://img.hhcdn.ru/employer-logo/4254669.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/4254668.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1440683&host=hh.ru",
+            "accredited_it_employer": true,
+            "trusted": true
+        },
+        "published_at": "2024-11-05T12:22:17+0300",
+        "created_at": "2024-11-05T12:22:17+0300",
+        "initial_created_at": "2024-11-05T12:22:17+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110117813",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110117813",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    },
+    {
+        "id": "110264498",
+        "premium": false,
+        "billing_type": {
+            "id": "standard",
+            "name": "Стандарт"
+        },
+        "relations": [],
+        "name": "Dart/Flutter Developer",
+        "insider_interview": null,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1?host=hh.ru"
+        },
+        "salary": {
+            "from": null,
+            "to": 250000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Санкт-Петербург",
+            "street": "Уральская улица",
+            "building": "1",
+            "lat": 59.951353,
+            "lng": 30.266425,
+            "description": null,
+            "raw": "Санкт-Петербург, Уральская улица, 1",
+            "metro": null,
+            "metro_stations": []
+        },
+        "allow_messages": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "employment": {
+            "id": "project",
+            "name": "Проектная работа"
+        },
+        "department": null,
+        "contacts": null,
+        "description": "<p><strong>Задача:</strong></p> <ul> <li> <p>Разработка кроссплатформенного мобильного приложения для проекта skillsupschool.ru;</p> </li> <li> <p>ТЗ по ссылке https://docs.google.com/document/d/1Bi5fvN_xCrcT2PHreof32-jLy5UCHMLwQzfCse1QJNo/ (стек обсуждается)</p> </li> </ul> <p><strong>Условия:</strong></p> <ul> <li> <p>Проектная работа;</p> </li> <li> <p>Удалённое сотрудничество;</p> </li> </ul> <p><strong>Требования:</strong></p> <ul> <li> <p>Наличие завершенных проектов;</p> </li> <li> <p>Понимание принципов UX дизайна;</p> </li> <li> <p>Глубокое понимание Dart и Flutter;</p> </li> <li> <p>Опыт работы с API и интеграции в мобильные приложения;</p> </li> <li> <p>Наличие завершенных проектов;</p> </li> <li> <p>Знание ООП, умение применять на практике паттерны проектирования;</p> </li> <li> <p>Знание GraphQL и WebSocket;</p> </li> <li> <p>Умение документировать код;</p> </li> <li> <p>Возможность обеспечить качественную аудио и видеосвязь;</p> </li> <li> <p>Опыт верстки;</p> </li> <li> <p>Опыт работы в команде - обязательно;</p> </li> </ul> <p> </p> <p><strong>Стек технологий:</strong></p> <ul> <li> <p>Язык - Dart;</p> </li> <li> <p>Flutter - фреймворк;</p> </li> <li> <p>Get - Dependency Injection State Management;</p> </li> <li> <p>Navigator 2.0 (Router) - навигация;</p> </li> <li> <p>Firebase - push уведомления;</p> </li> </ul>",
+        "branded_description": null,
+        "vacancy_constructor_template": null,
+        "key_skills": [
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Flutter"
+            },
+            {
+                "name": "Android"
+            },
+            {
+                "name": "iOS"
+            },
+            {
+                "name": "Firebase"
+            }
+        ],
+        "accept_handicapped": false,
+        "accept_kids": false,
+        "archived": false,
+        "response_url": null,
+        "specializations": [],
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "code": null,
+        "hidden": false,
+        "quick_responses_allowed": false,
+        "driver_license_types": [],
+        "accept_incomplete_resumes": false,
+        "employer": {
+            "id": "5042071",
+            "name": "Skills Up School",
+            "url": "https://api.hh.ru/employers/5042071?host=hh.ru",
+            "alternate_url": "https://hh.ru/employer/5042071",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/794315.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/3618147.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/3618148.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5042071&host=hh.ru",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "published_at": "2024-11-06T18:31:44+0300",
+        "created_at": "2024-11-06T18:31:44+0300",
+        "initial_created_at": "2024-11-06T18:31:44+0300",
+        "negotiations_url": null,
+        "suitable_resumes_url": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110264498",
+        "has_test": false,
+        "test": null,
+        "alternate_url": "https://hh.ru/vacancy/110264498",
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "languages": [],
+        "approved": true
+    }
+]

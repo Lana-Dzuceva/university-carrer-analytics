@@ -57,3 +57,16 @@ https://motherduck.com/
 [CUBE ](https://cube.dev/)
 поддерживает как clickhouse так и duckdb
 
+[Friendly Lists and Their Buddies, the Lambdas](https://duckdb.org/2024/08/08/friendly-lists-and-their-buddies-the-lambdas.html)
+
+[Plotly](https://plotly.com/python/maps/)
+
+https://duckdb.org/community_extensions/list_of_extensions
+
+(средства визуализации 1)[https://www.reddit.com/r/datascience/comments/sviwma/whats_your_favorite_data_visualization_tool_for/?tl=ru]
+
+(средства визуализации 2)[https://vk.com/@nuancesprog-sravnenie-samyh-populyarnyh-instrumentov-v-oblasti-bi-as-cod]
+
+(средства визуализации 3)[https://habr.com/ru/articles/695310/]
+
+
