@@ -139,8 +139,6 @@ def insert_vacancies(json_data):
 #
 
 
-
-
 def insert_vacancies2(vacancies: list):
     conn = duckdb.connect("vacancies.duckdb")
     for vac in vacancies:
@@ -184,20 +182,19 @@ def insert_vacancy2(vacancy: dict, connection):
         group_tag
     ]
 
-    insert_sql = f"""
-        INSERT INTO vacancies (
-            id_vacancy, name, premium, billing_type, area_id, area_name,
-            salary_from, salary_to, salary_currency, salary_gross, type,
-            city, street, lat, lng, experience, schedule, employment,
-            employer_id, employer_name, employer_url, published_at,
-            description, key_skills, group_tag
-        ) VALUES ({', '.join('?' * len(params))})
-    """
-
-    print('SQL Preview:\n', insert_sql)
-    # print("Values Preview:\n", params)
+    # insert_sql = f"""
+    #     INSERT INTO vacancies (
+    #         id_vacancy, name, premium, billing_type, area_id, area_name,
+    #         salary_from, salary_to, salary_currency, salary_gross, type,
+    #         city, street, lat, lng, experience, schedule, employment,
+    #         employer_id, employer_name, employer_url, published_at,
+    #         description, key_skills, group_tag
+    #     ) VALUES ({', '.join('?' * len(params))})
+    # """
+    # print('SQL Preview:\n', insert_sql)
     rel = connection.table('vacancies')
     rel.insert(params)
+    print("inserted  " + str(params[1]))
     # connection.execute(insert_sql, params)
 
 
