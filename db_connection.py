@@ -179,7 +179,8 @@ def insert_vacancy2(vacancy: dict, connection):
         safe_get(vacancy, "published_at", None),
         safe_get(vacancy, "description", ""),
         key_skills,
-        group_tag
+        group_tag,
+        datetime.today()
     ]
 
     # insert_sql = f"""
@@ -194,7 +195,7 @@ def insert_vacancy2(vacancy: dict, connection):
     # print('SQL Preview:\n', insert_sql)
     rel = connection.table('vacancies')
     rel.insert(params)
-    print("inserted  " + str(params[1]))
+    # print("inserted  " + str(params[1]))
     # connection.execute(insert_sql, params)
 
 
