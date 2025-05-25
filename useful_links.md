@@ -63,10 +63,25 @@ https://motherduck.com/
 
 https://duckdb.org/community_extensions/list_of_extensions
 
-(средства визуализации 1)[https://www.reddit.com/r/datascience/comments/sviwma/whats_your_favorite_data_visualization_tool_for/?tl=ru]
+[средства визуализации 1](https://www.reddit.com/r/datascience/comments/sviwma/whats_your_favorite_data_visualization_tool_for/?tl=ru)
 
-(средства визуализации 2)[https://vk.com/@nuancesprog-sravnenie-samyh-populyarnyh-instrumentov-v-oblasti-bi-as-cod]
+[средства визуализации 2](https://vk.com/@nuancesprog-sravnenie-samyh-populyarnyh-instrumentov-v-oblasti-bi-as-cod)
 
-(средства визуализации 3)[https://habr.com/ru/articles/695310/]
+[средства визуализации 3](https://habr.com/ru/articles/695310/)
 
+[мой враг salary_predictor_nlp_bert.ipynb](https://colab.research.google.com/drive/1MMgR6oFzPOGQTY8o1N3ep044GLWjiBai?authuser=1#scrollTo=iu7u1l3UbyA9)
+
+[АНАЛОГ VILKY](https://public.tableau.com/shared/3KN2X2YXN?:display_count=n&:origin=viz_share_link&:showVizHome=no)
+
+[VILKY Как мы сделали и развиваем публичный сервис анализа зарплатных вилок в IT](https://vc.ru/hr/1926771-sozdanie-i-razvitie-servisa-analiza-zarplat-v-it-vilky)
+
+[Наш первый миллиард строк в DuckDB](https://nuancesprog.ru/p/23946/)
+
+[Откажитесь от SQLite в пользу DuckDB](https://nuancesprog.ru/p/17357/)
+
+[Regression with Neural Networks using PyTorc](https://www.kaggle.com/code/stefancomanita/regression-with-neural-networks-using-pytorc)
+
+[Regression with Deep Neural Networks](https://predictivesciencelab.github.io/data-analytics-se/lecture24/hands-on-24.html)
+
+[cost of living Numbeo](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Russia&country2=Russia&city1=Vladikavkaz&city2=Nizhny+Novgorod&tracking=getDispatchComparison)
 

@@ -55,7 +55,7 @@ class Parser:
         return result
 
     def get_vacancies_by_title(self, title_for_request, short_title, area=113):
-        title_for_request = title_for_request.lstrip("\"\n ")
+        title_for_request = title_for_request.lstrip("\n ")
         response_json = requests.get(self.BASE_URL, params=self.get_query_parameters(title_for_request, area, 0)).json()
         result = safe_get(response_json, "items", [])
         vacancies = []

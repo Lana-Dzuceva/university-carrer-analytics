@@ -15,7 +15,7 @@ VACANCY_TITLES = {
       C# backend
       
       """,
-    #() AND(NOT UNITY AND NOT "Unreal Engine" AND NOT преподаватель AND NOT учитель AND NOT Лектор)
+    # () AND(NOT UNITY AND NOT "Unreal Engine" AND NOT преподаватель AND NOT учитель AND NOT Лектор)
 
     "flutter": "Flutter",
 
@@ -41,8 +41,8 @@ VACANCY_TITLES = {
         Специалист по CMS OR
         Программист JavaScript OR
         Web-инженер OR
-        Frontend-архитектор OR
-        AND (NOT преподаватель AND NOT учитель AND NOT Лектор)
+        Frontend-архитектор
+        AND NOT(преподаватель OR учитель OR Лектор)
     """,
 
     "data_science": """ 
