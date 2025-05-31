@@ -2,6 +2,8 @@ university career analytics, recommendations and improvements
 
 [Мой диплом](https://docs.google.com/document/d/1JUV-51H1DrZ6TD4kxBC_keaYbhXPaIOPpTovFzjyvME/edit?usp=sharing)
 
+[производственная практика](https://docs.google.com/document/d/12WNlBlDwwKI5fRwiFaEw5XwpNe5uShgN/edit?usp=drive_link&ouid=106951595867477742129&rtpof=true&sd=true)  
+
 -----
   
 [диплом Стаса](https://docs.google.com/document/d/1Gz30KDkinINJ9LC2hlhhetW0qfM3b4Mj/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
