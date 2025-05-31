@@ -36,7 +36,7 @@ class Parser:
         result = []
         c = 0
         for short_title, title_for_request in VACANCY_TITLES.items():
-            if short_title != '1c':
+            if short_title != 'python':
                 continue
             for region in regions:  # todo: remove [:5]
                 # region = [
@@ -46,7 +46,7 @@ class Parser:
                 region_id, region_name = region
                 new_data = self.get_vacancies_by_title(title_for_request, short_title, area=region_id)
                 result += new_data
-                json.dump(result, open(f"result24052025 {c}.json", "a", encoding="utf-8"), ensure_ascii=False, indent=4)
+                # json.dump(result, open(f"result24052025 {c}.json", "a", encoding="utf-8"), ensure_ascii=False, indent=4)
                 insert_vacancies2(new_data)
                 c += len(new_data)
 

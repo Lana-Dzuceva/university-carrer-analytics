@@ -1,6 +1,9 @@
 university career analytics, recommendations and improvements
 
+[Мой диплом](https://docs.google.com/document/d/1JUV-51H1DrZ6TD4kxBC_keaYbhXPaIOPpTovFzjyvME/edit?usp=sharing)
 
+-----
+  
 [диплом Стаса](https://docs.google.com/document/d/1Gz30KDkinINJ9LC2hlhhetW0qfM3b4Mj/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
 
 [образец](https://drive.google.com/file/d/1-l0TXtUxXWFrTweOYB1NNtR3gsal6SCQ/view?usp=sharing)

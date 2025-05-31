@@ -2,7 +2,7 @@ TOKEN = ""
 
 
 VACANCY_TITLES = {
-    "c_sharp": """"
+    "c_sharp": """
     
       C# OR 
       .Net OR
@@ -107,7 +107,8 @@ VACANCY_TITLES = {
         "Дата Сайентист" OR 
         Преподаватель OR
         Лектор OR
-        Учитель
+        Учитель OR
+        Системный администратор
     )
     """
 }

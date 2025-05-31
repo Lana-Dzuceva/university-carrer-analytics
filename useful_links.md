@@ -36,6 +36,10 @@ https://en.wikipedia.org/wiki/Greenplum
 
 [DuckDB Analyzing Railway Traffic in the Netherlands](https://duckdb.org/2024/05/31/analyzing-railway-traffic-in-the-netherlands.html)
 
+[The Guide to Data Analysis with DuckDB](https://www.analyticsvidhya.com/blog/2021/12/the-guide-to-data-analysis-with-duckdb/)
+
+[DuckDB: The SQLite for Analytics](https://www.analyticsvidhya.com/blog/2024/06/duckdb/)
+
 [DBeaver SQL IDE](https://duckdb.org/docs/stable/guides/sql_editors/dbeaver.html)
 
 [Всё что нужно знать про DuckDB](https://habr.com/ru/articles/829502/#json)
@@ -75,6 +79,10 @@ https://duckdb.org/community_extensions/list_of_extensions
 
 [VILKY Как мы сделали и развиваем публичный сервис анализа зарплатных вилок в IT](https://vc.ru/hr/1926771-sozdanie-i-razvitie-servisa-analiza-zarplat-v-it-vilky)
 
+[АНАЛОГ РосНавык](https://rosnavyk.ru/)
+
+[«РосНавык»: EdTech-сервис для рынка труда и образования](https://ido.tsu.ru/novosti-ido/blog/rosnavyk-edtech-servis-dlya-rynka-truda-i-obrazovaniya/)
+
 [Наш первый миллиард строк в DuckDB](https://nuancesprog.ru/p/23946/)
 
 [Откажитесь от SQLite в пользу DuckDB](https://nuancesprog.ru/p/17357/)
@@ -84,4 +92,8 @@ https://duckdb.org/community_extensions/list_of_extensions
 [Regression with Deep Neural Networks](https://predictivesciencelab.github.io/data-analytics-se/lecture24/hands-on-24.html)
 
 [cost of living Numbeo](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Russia&country2=Russia&city1=Vladikavkaz&city2=Nizhny+Novgorod&tracking=getDispatchComparison)
+
+[embedding projector](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/gaphex/d608746047fe9d5f0e3f31cc1d1a1e78/raw/4bcaa8d93b40d190a67a8b7ffbf99ada41c942e0/intent_vis_config.json)
+
+[сложное: Обучение модели естественного языка с BERT и Tensorflow](https://habr.com/ru/companies/sberdevices/articles/527576/)
 
