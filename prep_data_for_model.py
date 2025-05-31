@@ -49,7 +49,7 @@ def parse_vacancy(url):
 def prepare_features(data, mlb, tokenizer, model_for_embedding):
     """
     Преобразует данные в формат, подходящий для модели.
-     Параметры: TODO подписать параметры
+     Параметры:
     - data (str): Текст (например, описание вакансии или резюме).
     - tokenizer: Токенизатор RuBERT.
     - model_for_embedding: Модель RuBERT.
