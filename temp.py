@@ -9,3 +9,9 @@ with open("areas.json", "w", encoding="utf-8") as json_file:
     json.dump(areas_ids, json_file, ensure_ascii=False, indent=4)
     area = 113
     print(f"Данные успешно сохранены в файл areas.json")
+
+# from transformers import AutoModel, AutoTokenizer
+# model = AutoModel.from_pretrained("DeepPavlov/rubert-base-cased")
+# tokenizer = AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased")
+# model.save_pretrained("/rubert_model")
+# tokenizer.save_pretrained("/rubert_tokenizer2")

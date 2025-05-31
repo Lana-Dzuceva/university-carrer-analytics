@@ -1,141 +1,30 @@
-# import streamlit as st
-# import joblib
-# import pandas as pd
-# import time
-#
-#
-# # Функция-заглушка для парсинга (замените на ваш метод)
-# def parse_vacancy(url):
-#     """
-#     Принимает URL вакансии и возвращает данные для модели.
-#     Замените на ваш реальный метод парсинга.
-#     """
-#     # Пример возвращаемых данных
-#     return {
-#         "name": "Python Developer",
-#         "description": "Python developer with 3 years of experience in web development",
-#     }
-#
-#
-# # Функция для подготовки признаков (настройте под вашу модель)
-# def prepare_features(data):
-#     """
-#     Преобразует данные в формат, подходящий для модели.
-#     Замените на ваш код обработки (например, TF-IDF).
-#     """
-#     # Пример: возвращаем текстовое описание
-#     # Если нужен TfidfVectorizer, раскомментируйте и настройте:
-#     # vectorizer = joblib.load("tfidf_vectorizer.pkl")
-#     # features = vectorizer.transform([data["description"]])
-#     return [data["description"]]
-#
-#
-# # Загрузка модели
-# model = joblib.load("models/random_forest_model2.pkl")
-#
-# # Кастомный CSS для стилизации
-# st.markdown("""
-# <style>
-#     .header {
-#         background-color: #1f77b4;
-#         padding: 1rem;
-#         border-radius: 10px;
-#         color: white;
-#         text-align: center;
-#         font-size: 2rem;
-#         font-weight: bold;
-#         margin-bottom: 2rem;
-#     }
-#     .footer {
-#         background-color: #f0f2f6;
-#         padding: 1rem;
-#         border-radius: 10px;
-#         text-align: center;
-#         font-size: 0.9rem;
-#         color: #333333;
-#         margin-top: 2rem;
-#     }
-#     .stTextInput> div> div> input {
-#         border: 2px solid #1f77b4;
-#         border-radius: 5px;
-#         padding: 0.5rem;
-#     }
-#     .stTextInput> div> div> input:disabled {
-#         background-color: #f0f2f6;
-#         color: #333333;
-#     }
-#     .vacancy-box {
-#         background-color: #ffffff;
-#         padding: 1rem;
-#         border-radius: 10px;
-#         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-#         margin-bottom: 1rem;
-#     }
-# </style>
-# """, unsafe_allow_html=True)
-#
-# tab1, tab2 = st.tabs(["Analytics", "Model"])
-# with tab1:
-#     st.text("Туть аналитика")
-# with tab2:
-#     # Хедер
-#     st.markdown('<div class="header">Salary Prediction Dashboard</div>', unsafe_allow_html=True)
-#
-#     # Текстовое поле для ввода URL
-#     st.subheader("Enter Vacancy URL")
-#     url = st.text_input("URL", placeholder="https://example.com/vacancy/123", label_visibility="collapsed")
-#
-#     # Обработка URL и предсказание
-#     if url:
-#         with st.spinner("Processing vacancy..."):
-#             try:
-#                 # Парсинг данных
-#                 vacancy_data = parse_vacancy(url)
-#
-#                 # Подготовка признаков
-#                 features = prepare_features(vacancy_data)
-#
-#                 # Имитация задержки для демонстрации прогресс-бара
-#                 time.sleep(1)
-#
-#                 # Предсказание зарплаты
-#                 predicted_salary = model.predict(features)[0]  # Ожидается [salary_from, salary_to]
-#                 salary_from, salary_to = predicted_salary
-#
-#                 # Вывод результатов
-#                 st.subheader("Vacancy Details")
-#                 st.markdown(f"""
-#                 <div class="vacancy-box">
-#                     <strong>Name:</strong> {vacancy_data['name']}<br>
-#                     <strong>Description:</strong> {vacancy_data['description']}<br>
-#                     <strong>Predicted Salary Range (RUB):</strong> {salary_from:,.0f} - {salary_to:,.0f}
-#                 </div>
-#                 """, unsafe_allow_html=True)
-#
-#             except Exception as e:
-#                 st.error(f"Error processing the URL: {str(e)}")
-#     else:
-#         st.markdown("""
-#         <div class="vacancy-box">
-#             <strong>Name:</strong> Enter a URL to see the vacancy details<br>
-#             <strong>Description:</strong> Waiting for input...<br>
-#             <strong>Predicted Salary Range (RUB):</strong> Waiting for input...
-#         </div>
-#         """, unsafe_allow_html=True)
-#
-# # Футер
-# st.markdown("""
-# <div class="footer">
-#     Powered by xAI | Built with Streamlit | Data processed with DuckDB and Random Forest
-# </div>
-# """, unsafe_allow_html=True)
-
-
 import streamlit as st
 import joblib
-import pandas as pd
-# import time
 from prep_data_for_model import *
+from transformers import AutoTokenizer, AutoModel
+
+
+@st.cache_resource
+def get_mlb():
+    return joblib.load('models/mlb_encoder.pkl')
+
+
+@st.cache_resource
+def get_tokenizer():
+    try:
+        tokenizer_ = AutoTokenizer.from_pretrained("/rubert_tokenizer")
+        return tokenizer_
+    except:
+        return AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased")
+
+
+@st.cache_resource
+def get_rubert_model():
+    try:
+        model_ = AutoModel.from_pretrained("/rubert_model")
+        return model_
+    except:
+        return AutoModel.from_pretrained("DeepPavlov/rubert-base-cased")
 
 
 # Список доступных моделей
@@ -199,115 +88,117 @@ st.markdown("""
         min-height: 90vh;
         display: flex;
         flex-direction: column;
+
     }
     .main-content {
         flex: 1;
-        padding-bottom: 4rem; /* Отступ для футера */
+        padding-bottom: 1rem; /* Отступ для футера */
+         #        max-width: 100%; /* Увеличиваем ширину до 90% для большей гибкости */
+         # width: 70vw; /* Минимальная ширина 70% от viewport */
+         width: 100%; /* Контент занимает всю доступную ширину контейнера */
+        max-width: none; /* Убираем ограничения по максимальной ширине */
     }
+
+    .appview-container .main .block-container{
+       width: 100%;
+         }
 </style>
 """, unsafe_allow_html=True)
 # background - color:  # F5F5DC;
 
-# Хедер
-st.markdown('<div class="header">Дашборд предсказания зарплаты</div>', unsafe_allow_html=True)
+tab1, tab2 = st.tabs(["Аналитика", "Предсказания🔮"])
+with tab1:
+    st.header("Туть аналитика")
+with tab2:
+    # Хедер
+    # st.header("Дашборд предсказания зарплаты")
+    st.markdown('<div class="header">Дашборд предсказания зарплаты</div>', unsafe_allow_html=True)
 
-# Основной контент
-st.markdown('<div class="main-content">', unsafe_allow_html=True)
+    # Основной контент
+    st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
-# Выпадающий список для выбора модели
-st.subheader("Выберите модель")
-selected_model = st.selectbox("Модель для предсказания", list(models.keys()), label_visibility="collapsed")
+    # Выпадающий список для выбора модели
+    st.subheader("Выберите модель")
+    selected_model = st.selectbox("Модель для предсказания", list(models.keys()), label_visibility="collapsed")
 
-# Загрузка выбранной модели
-model = joblib.load(models[selected_model])
+    # Загрузка выбранной модели
+    model = joblib.load(models[selected_model])
+    mlb = get_mlb()
+    tokenizer = get_tokenizer()
+    model_rubert = get_rubert_model()
 
-# Текстовое поле для ввода URL
-st.subheader("Введите URL вакансии")
-url = st.text_input("URL", placeholder="https://example.com/vacancy/123", label_visibility="collapsed")
+    # Текстовое поле для ввода URL
+    st.subheader("Введите URL вакансии")
+    st.text("Url для примера https://vladikavkaz.hh.ru/vacancy/116838770?utm_medium=cpc_hh&utm_source=clickmehhru")
+    url = st.text_input("URL", placeholder="https://vladikavkaz.hh.ru/vacancy/116838770", label_visibility="collapsed")
 
-# Обработка URL и предсказание
-if url:
-    with st.spinner("Обработка вакансии..."):
-        try:
-            # Парсинг данных
-            vacancy_data = parse_vacancy(url)
+    # Обработка URL и предсказание
+    if url:
+        with st.spinner("Обработка вакансии..."):
+            try:
+                # Парсинг данных
+                api_url = convert_hh_url_to_api(url)
+                vacancy_data = parse_vacancy(api_url)
 
-            # Подготовка признаков
-            features = prepare_features(vacancy_data)
+                # Подготовка признаков
+                features = prepare_features(vacancy_data, mlb, tokenizer, model_rubert)
 
-            # Имитация задержки для демонстрации прогресс-бара
-            # time.sleep(1)
+                # Имитация задержки для демонстрации прогресс-бара
+                # time.sleep(1)
 
-            # Предсказание зарплаты
-            # predicted_salary = model.predict(features)[0]  # Ожидается [salary_from, salary_to]
-            delta = 30_000
-            # salary_from, salary_to = predicted_salary - delta, predicted_salary + delta
-            salary_from, salary_to = 10000000 - delta, 100000000 + delta
+                # Предсказание зарплаты
+                predicted_salary = model.predict(features)[0]
+                delta = 30_000 // 2
+                salary_from, salary_to = predicted_salary - delta, predicted_salary + delta
 
-            # Вывод результатов
-            st.subheader("Детали вакансии")
-            st.markdown(f"""
-            <div class="vacancy-box">
-                <strong>Название:</strong> {vacancy_data['name']}<br>
-                <strong>Описание:</strong> {vacancy_data['description']}<br>
-                <strong>Предсказанный диапазон зарплаты (RUB):</strong> {salary_from:,.0f} - {salary_to:,.0f}
-            </div>""", unsafe_allow_html=True)
+                # Вывод результатов
+                # st.subheader("")
+                st.subheader("Результаты и Детали вакансии")
+                sf = safe_get(safe_get(vacancy_data, "salary", {}), "from", None)
+                st_ = safe_get(safe_get(vacancy_data, "salary", {}), "to", None)
+                original_salary_html = ""
+                if sf is not None and st_ is not None:
+                    original_salary_html = f"{sf:,.0f} - {st_:,.0f}"
 
-            # Вывод результатов
-            # st.subheader("Детали вакансии")
-            # st.markdown(f"""
-            #             <div
-            #
-            #
-            # class ="vacancy-box">
-            #
-            # <strong> Название: </strong> {vacancy_data['name']} <br>
-            # <strong> Описание: </strong> {vacancy_data['description']} <br>
-            # <strong> Предсказанный
-            # диапазон
-            # зарплаты(RUB): </strong> {salary_from:, .0f} - {salary_to:, .0 f}
-            # </div> """, unsafe_allow_html=True)
+                elif sf is not None:
+                    original_salary_html = f"{sf:,.0f} - ?"
 
-        except Exception as e:
-            st.error(f"Ошибка обработки URL: {str(e)}")
-else:
-    st.markdown(f"""
-               <div class="vacancy-box">
-                   <strong>Название:</strong> Введите    URL, чтобы    увидеть    детали вакансии<br>
-                   <strong>Описание:</strong> Ожидание    ввода...<br>
-                   <strong>Предсказанный диапазон зарплаты (RUB):</strong> Ожидание    ввода...
-               </div>""", unsafe_allow_html=True)
+                elif st_ is not None:
+                    original_salary_html = f" ? - {st_:,.0f}"
+                else:
+                    "Не указан"
+                st.markdown(f"""
+                <div class="vacancy-box">
+                    <strong>Предсказанный диапазон зарплаты (RUB):</strong> {salary_from:,.0f} - {salary_to:,.0f}<br>
+                    <strong>Оригинальный диапазон зарплаты (RUB):</strong> {original_salary_html} <br>
+                    <br>
+                    <strong>Название:</strong> {vacancy_data['name']}<br>
+                    <strong>Описание:</strong> {vacancy_data['description']}<br>
+                </div>""", unsafe_allow_html=True)
 
-# Закрытие основного контента
-st.markdown('</div>', unsafe_allow_html=True)
+            except Exception as e:
+                print(e)
+                st.error(f"Ошибка обработки URL: {str(e)}")
+    else:
+        st.markdown(f"""
+                   <div class="vacancy-box">
+                       <strong>Предсказанный диапазон зарплаты (RUB):</strong> Ожидание    ввода...
+                       <strong>Название:</strong> Введите    URL, чтобы    увидеть    детали вакансии<br>
+                       <strong>Описание:</strong> Ожидание    ввода...<br>
+                   </div>""", unsafe_allow_html=True)
 
-# Футер
-st.markdown("""
-<div class ="footer">
+    # Закрытие основного контента
+    st.markdown('</div>', unsafe_allow_html=True)
 
-
-Создано
-студенткой
-математического
-факультета
-СОГУ |
-<a
-href = "https://github.com/your-username"> GitHub </a> |
-<a
-href = "https://t.me/YourTelegram"> Telegram </a> <br>
-Разработано
-при
-поддержке
-xAI | Создано
-с
-использованием
-Streamlit | Данные
-обрабатываются
-с
-помощью
-DuckDB
-и
-Random
-Forest
-</div>
-""", unsafe_allow_html=True)
+    # Футер
+    st.markdown("""
+    <div class ="footer">
+        Создано студенткой матфака СОГУ |
+        <a href = "https://github.com/your-username"> GitHub </a> |
+        <a href = "https://t.me/YourTelegram"> Telegram </a> <br>
+        Разработано при поддержке xAI | Создано с использованием
+        Streamlit | Данные обрабатываются
+        с помощью DuckDB
+        и Random Forest
+    </div>
+    """, unsafe_allow_html=True)

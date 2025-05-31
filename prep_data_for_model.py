@@ -1,8 +1,32 @@
 import numpy as np
 import requests
 import torch
+import re
 
 from utils import safe_get
+
+
+def convert_hh_url_to_api(url):
+    """
+    Преобразует ссылку hh.ru в ссылку для API hh.ru, извлекая ID вакансии.
+
+    Args:
+        url (str): Исходная ссылка, например,
+                   'https://vladikavkaz.hh.ru/vacancy/120529780?query=c%23&hhtmFrom=vacancy_search_list'
+
+    Returns:
+        str: Ссылка для API, например, 'https://api.hh.ru/vacancies/120529780?host=hh.ru'
+        или None, если ID не найден
+    """
+    # Регулярное выражение для извлечения ID вакансии
+    pattern = r'vacancy/(\d+)(?:\?|$)'  # Ищет /vacancy/ и цифры после него до ? или конца строки
+    match = re.search(pattern, url)
+
+    if match:
+        vacancy_id = match.group(1)  # Извлекаем ID (группа 1)
+        return f"https://api.hh.ru/vacancies/{vacancy_id}?host=hh.ru"
+    else:
+        return None
 
 
 # Функция для парсинга
@@ -15,6 +39,7 @@ def parse_vacancy(url):
 
         if response.status_code == 200:
             vacancy_details = response.json()
+            print("qqq")
             return vacancy_details
     except Exception as e:
         print(e)
@@ -24,19 +49,14 @@ def parse_vacancy(url):
 def prepare_features(data, mlb, tokenizer, model_for_embedding):
     """
     Преобразует данные в формат, подходящий для модели.
-    - mlb
      Параметры: TODO подписать параметры
-    - input_text (str): Текст (например, описание вакансии или резюме).
-    - key_skills (list): Список навыков (например, ['Python', 'SQL']).
-    - experience (str): Уровень опыта ('No experience', 'Junior', 'Middle', 'Senior').
+    - data (str): Текст (например, описание вакансии или резюме).
     - tokenizer: Токенизатор RuBERT.
-    - model: Модель RuBERT.
+    - model_for_embedding: Модель RuBERT.
     - mlb: MultiLabelBinarizer для one-hot encoding навыков.
-    - rf: Обученная модель RandomForestRegressor.
-    - device (str): Устройство для RuBERT ('cuda' или 'cpu').
 
     Возвращает:
-    - float: Предсказанная зарплата.
+    - np X
     """
     experience = safe_get(safe_get(data, "experience", {}), "name", "")
     # 1. Преобразование experience в числовое значение
@@ -52,31 +72,6 @@ def prepare_features(data, mlb, tokenizer, model_for_embedding):
     skills_lower = [skill.lower() for skill in key_skills]
     skills_encoded = mlb.transform([skills_lower])
 
-    return [data["description"]]
-
-
-def predict_salary(input_text, key_skills, experience, tokenizer, model, mlb, rf, device='cpu'):
-    """
-    Предсказывает зарплату на основе текста, навыков и опыта.
-
-    Параметры:
-    - input_text (str): Текст (например, описание вакансии или резюме).
-    - key_skills (list): Список навыков (например, ['Python', 'SQL']).
-    - experience (str): Уровень опыта ('No experience', 'Junior', 'Middle', 'Senior').
-    - tokenizer: Токенизатор RuBERT.
-    - model: Модель RuBERT.
-    - mlb: MultiLabelBinarizer для one-hot encoding навыков.
-    - rf: Обученная модель RandomForestRegressor.
-    - device (str): Устройство для RuBERT ('cuda' или 'cpu').
-
-    Возвращает:
-    - float: Предсказанная зарплата.
-    """
-
-    # 3. One-hot encoding для key_skills
-    skills_lower = [skill.lower() for skill in key_skills]
-    skills_encoded = mlb.transform([skills_lower])
-
     # 4. Объединение признаков
     X = np.hstack([
         embeddings,  # RuBERT эмбеддинги
@@ -84,9 +79,7 @@ def predict_salary(input_text, key_skills, experience, tokenizer, model, mlb, rf
         skills_encoded  # One-hot encoded навыки
     ])
 
-    # 5. Предсказание
-    prediction = rf.predict(X)
-    return prediction[0]
+    return X
 
 
 def build_input(data):
