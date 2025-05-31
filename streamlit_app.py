@@ -12,10 +12,12 @@ def get_mlb():
 @st.cache_resource
 def get_tokenizer():
     try:
-        tokenizer_ = AutoTokenizer.from_pretrained("/rubert_tokenizer")
+        tokenizer_ = AutoTokenizer.from_pretrained("/rubert_tokenizer2")
         return tokenizer_
     except:
-        return AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased")
+        tokenizer_ = AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased")
+        tokenizer_.save_pretrained("/rubert_tokenizer2")
+        return tokenizer_
 
 
 @st.cache_resource
@@ -24,7 +26,9 @@ def get_rubert_model():
         model_ = AutoModel.from_pretrained("/rubert_model")
         return model_
     except:
-        return AutoModel.from_pretrained("DeepPavlov/rubert-base-cased")
+        model_ = AutoModel.from_pretrained("DeepPavlov/rubert-base-cased")
+        model_.save_pretrained("/rubert_model")
+        return model_
 
 
 # Список доступных моделей
@@ -104,7 +108,8 @@ st.markdown("""
          }
 </style>
 """, unsafe_allow_html=True)
-# background - color:  # F5F5DC;
+
+st.title("UCARY")
 
 tab1, tab2 = st.tabs(["Аналитика", "Предсказания🔮"])
 with tab1:
@@ -129,7 +134,7 @@ with tab2:
 
     # Текстовое поле для ввода URL
     st.subheader("Введите URL вакансии")
-    st.text("Url для примера https://vladikavkaz.hh.ru/vacancy/116838770?utm_medium=cpc_hh&utm_source=clickmehhru")
+    st.text("Url для примера https://vladikavkaz.hh.ru/vacancy/116838770")
     url = st.text_input("URL", placeholder="https://vladikavkaz.hh.ru/vacancy/116838770", label_visibility="collapsed")
 
     # Обработка URL и предсказание
@@ -182,7 +187,7 @@ with tab2:
     else:
         st.markdown(f"""
                    <div class="vacancy-box">
-                       <strong>Предсказанный диапазон зарплаты (RUB):</strong> Ожидание    ввода...
+                       <strong>Предсказанный диапазон зарплаты (RUB):</strong> Ожидание    ввода... <br>
                        <strong>Название:</strong> Введите    URL, чтобы    увидеть    детали вакансии<br>
                        <strong>Описание:</strong> Ожидание    ввода...<br>
                    </div>""", unsafe_allow_html=True)
@@ -194,8 +199,8 @@ with tab2:
     st.markdown("""
     <div class ="footer">
         Создано студенткой матфака СОГУ |
-        <a href = "https://github.com/your-username"> GitHub </a> |
-        <a href = "https://t.me/YourTelegram"> Telegram </a> <br>
+        <a href = "https://github.com/Lana-Dzuceva"> GitHub </a> |
+        <a href = "https://t.me/Lana_hmm"> Telegram </a> <br>
         Разработано при поддержке xAI | Создано с использованием
         Streamlit | Данные обрабатываются
         с помощью DuckDB

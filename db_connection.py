@@ -1,5 +1,4 @@
 import duckdb
-import json
 from datetime import datetime
 from utils import safe_get
 

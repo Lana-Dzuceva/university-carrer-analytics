@@ -83,6 +83,10 @@ https://duckdb.org/community_extensions/list_of_extensions
 
 [«РосНавык»: EdTech-сервис для рынка труда и образования](https://ido.tsu.ru/novosti-ido/blog/rosnavyk-edtech-servis-dlya-rynka-truda-i-obrazovaniya/)
 
+[АНАЛОГ англ](https://www.onetonline.org/)  
+
+[АНАЛОГ англ](https://linkedin.github.io/career-explorer/)  
+
 [Наш первый миллиард строк в DuckDB](https://nuancesprog.ru/p/23946/)
 
 [Откажитесь от SQLite в пользу DuckDB](https://nuancesprog.ru/p/17357/)
@@ -96,4 +100,54 @@ https://duckdb.org/community_extensions/list_of_extensions
 [embedding projector](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/gaphex/d608746047fe9d5f0e3f31cc1d1a1e78/raw/4bcaa8d93b40d190a67a8b7ffbf99ada41c942e0/intent_vis_config.json)
 
 [сложное: Обучение модели естественного языка с BERT и Tensorflow](https://habr.com/ru/companies/sberdevices/articles/527576/)
+
+[streamlit deploy](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy)
+
+[streamlit multypage apps](https://docs.streamlit.io/develop/concepts/multipage-apps)
+
+https://dlthub.com/docs/dlt-ecosystem/destinations/duckdb
+
+[hernya Как использовать API hh.ru для парсинга (сбора) вакансий в области Data Science](https://shakhbanov.org/kak-ispolzovat-api-hhru-dlya-parsinga-sbora-vakansiy-v-oblasti-data-science/)
+
+https://dlthub.com/
+
+---
+
+transformers theory
+
+https://habr.com/ru/articles/486358/
+
+https://habr.com/ru/articles/487358/
+
+https://habr.com/ru/articles/820159/
+
+для теории
+https://konference.nvsu.ru/konffiles/368/Raskatova_M.V.,_CHelyshev_E.A._Vektorizaciya.pdf
+
+
+https://www.deepset.ai/blog/what-is-text-vectorization-in-nlp
+
+для теории https://vestnik.rsreu.ru/images/archive/2023/85/3.5_.pdf
+
+[gooogle presentation templates](https://docs.google.com/presentation/u/1/?ftv=1&folder=1LUABDlYBWpwbdYWG63887Un2EL3eeQ3T)
+
+https://googleai.fandom.com/wiki/BERT
+
+https://habr.com/ru/companies/otus/articles/702838/
+
+https://habr.com/ru/companies/skillfactory/articles/862130/
+
+https://guillim.github.io/machine-learning/2020/09/29/BERT-architecture.html
+
+https://fxis.ai/edu/how-to-use-rubert-for-russian-language-processing/
+
+https://docs.deeppavlov.ai/en/master/features/models/bert.html
+
+
+
+DUCKS AND ARROWS!!!
+
+https://habr.com/ru/articles/597943/
+
+https://duckdb.org/2021/12/03/duck-arrow.html
 

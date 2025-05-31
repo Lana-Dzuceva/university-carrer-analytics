@@ -34,3 +34,6 @@ pip freeze > requirements.txt
 [//]: # (python -m venv venv)
 [//]: # (source venv/bin/activate  # На Windows: venv\Scripts\activate)
 pip install -r requirements.txt
+
+ git lfs migrate info
+ git lfs migrate import --include="*.duckdb"
