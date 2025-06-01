@@ -2,6 +2,8 @@ university career analytics, recommendations and improvements
 
 [Мой диплом](https://docs.google.com/document/d/1JUV-51H1DrZ6TD4kxBC_keaYbhXPaIOPpTovFzjyvME/edit?usp=sharing)
 
+[Мой colab](https://colab.research.google.com/drive/1U28eC46rhrfeXp8LdPB7ikzGLEe3H94Z#scrollTo=HQUjZeVfwvWp)
+
 [Производственная практика](https://docs.google.com/document/d/12WNlBlDwwKI5fRwiFaEw5XwpNe5uShgN/edit?usp=drive_link&ouid=106951595867477742129&rtpof=true&sd=true)  
 
 презентации

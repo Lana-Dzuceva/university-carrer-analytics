@@ -12,22 +12,22 @@ def get_mlb():
 @st.cache_resource
 def get_tokenizer():
     try:
-        tokenizer_ = AutoTokenizer.from_pretrained("/rubert_tokenizer2")
+        tokenizer_ = AutoTokenizer.from_pretrained("./rubert_tokenizer2")
         return tokenizer_
     except:
         tokenizer_ = AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased")
-        tokenizer_.save_pretrained("/rubert_tokenizer2")
+        tokenizer_.save_pretrained("./rubert_tokenizer2")
         return tokenizer_
 
 
 @st.cache_resource
 def get_rubert_model():
     try:
-        model_ = AutoModel.from_pretrained("/rubert_model")
+        model_ = AutoModel.from_pretrained("./rubert_model")
         return model_
     except:
         model_ = AutoModel.from_pretrained("DeepPavlov/rubert-base-cased")
-        model_.save_pretrained("/rubert_model")
+        model_.save_pretrained("./rubert_model")
         return model_
 
 
