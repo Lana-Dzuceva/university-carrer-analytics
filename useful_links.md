@@ -151,3 +151,9 @@ https://habr.com/ru/articles/597943/
 
 https://duckdb.org/2021/12/03/duck-arrow.html
 
+----
+
+[How to submit a support case for Streamlit Community Cloud](https://docs.streamlit.io/knowledge-base/deploy/how-to-submit-a-support-case-for-streamlit-community-cloud)
+
+[My streamlit apps](https://share.streamlit.io/)
+
