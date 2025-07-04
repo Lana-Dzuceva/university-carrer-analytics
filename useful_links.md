@@ -27,7 +27,10 @@
 
 ### DuckDB и базы данных
 
-- [clickhouse Select Data Types](https://clickhouse.com/docs/best-practices/select-data-types)
+- [Колоночные СУБД — принцип действия, преимущества и область применения](https://habr.com/ru/articles/95181/)
+- [clickhouse](https://clickhouse.com/)
+- [Why is ClickHouse so fast?](https://clickhouse.com/docs/best-practices/select-data-types)
+- [Подключение к clickhouse через dbeaver?](https://qna.habr.com/q/642294)
 - [Conversion between DuckDB and Python](https://duckdb.org/docs/stable/clients/python/conversion)
 - [Create an auto incrementing primary key in DuckDB](https://stackoverflow.com/questions/72883083/create-an-auto-incrementing-primary-key-in-duckdb)
 - [DBeaver mother db](https://motherduck.com/docs/integrations/sql-ides/dbeaver/)
@@ -41,17 +44,13 @@
 - [DuckDB Tutorial For Beginners](https://motherduck.com/blog/duckdb-tutorial-for-beginners/)
 - [DuckDB: The SQLite for Analytics](https://www.analyticsvidhya.com/blog/2024/06/duckdb/)
 - [Friendly Lists and Their Buddies, the Lambdas](https://duckdb.org/2024/08/08/friendly-lists-and-their-buddies-the-lambdas.html)
-- [Greenplum Database Installation](https://rayafeel.com/greenplum-database-installation/)
 - [The Guide to Data Analysis with DuckDB](https://www.analyticsvidhya.com/blog/2021/12/the-guide-to-data-analysis-with-duckdb/)
 - [Всё что нужно знать про DuckDB](https://habr.com/ru/articles/829502/#json)
-- [Колоночные СУБД — принцип действия, преимущества и область применения](https://habr.com/ru/articles/95181/)
 - [Наш первый миллиард строк в DuckDB](https://nuancesprog.ru/p/23946/)
 - [Откажитесь от SQLite в пользу DuckDB](https://nuancesprog.ru/p/17357/)
-- [Подключение к clickhouse через dbeaver?](https://qna.habr.com/q/642294)
 - https://dlthub.com/docs/dlt-ecosystem/destinations/duckdb
 - https://duckdb.org/2021/12/03/duck-arrow.html
 - https://duckdb.org/community_extensions/list_of_extensions
-- https://en.wikipedia.org/wiki/Greenplum
 - https://motherduck.com/
 
 ### Визуализация данных и Streamlit
