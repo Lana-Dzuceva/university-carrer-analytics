@@ -79,7 +79,7 @@
 
 5. **Запуск дашборда**:
    ```bash
-   streamlit run streamlit_visualization2.py
+   streamlit run streamlit_app.py
    ```
 
 6. **Создание файла зависимостей** (если вы вносите изменения):
