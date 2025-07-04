@@ -23,3 +23,43 @@ import requests
 # duckdb.sql("""
 #     INSTALL motherduck FROM 'https://extensions.duckdb.org/v1.3.0/windows_amd64/motherduck.duckdb_extension.gz';
 # """)
+
+
+import plotly.express as px
+import pandas as pd
+
+# Данные
+data = {
+    "Платформа": ["HH.ru", "Работа.ру", "Хабр Карьера", "Карьерист", "Job Lab", "SuperJob", "Trudvsem"],
+    "Вакансии": [1164544, 250000, 2835, 1083082, 300000, 500000, 1746772]
+}
+
+df = pd.DataFrame(data)
+
+# Построение графика с разными цветами
+fig = px.bar(
+    df,
+    x="Платформа",
+    y="Вакансии",
+    text="Вакансии",
+    color="Платформа",  # !!! ключевой момент: цвет зависит от платформы
+    title="📊 Количество вакансий по разным платформам",
+    labels={"Вакансии": "Количество вакансий"}
+)
+
+# Форматирование текста
+fig.update_traces(
+    texttemplate='%{text:,}',  # 1 000 000 вместо 1000000
+    textposition='outside'
+)
+
+fig.update_layout(
+    xaxis_tickangle=-30,
+    yaxis_title="Количество вакансий",
+    xaxis_title="Платформа",
+    uniformtext_minsize=8,
+    uniformtext_mode='hide',
+    showlegend=False  # опционально, можно убрать легенду
+)
+
+fig.show()

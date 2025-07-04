@@ -1,41 +1,135 @@
-university career analytics, recommendations and improvements
+# Аналитика карьерных возможностей и прогнозирование зарплат
 
-[Мой диплом](https://docs.google.com/document/d/1JUV-51H1DrZ6TD4kxBC_keaYbhXPaIOPpTovFzjyvME/edit?usp=sharing)
+Добро пожаловать в проект **"University Career Analytics"**! Этот проект посвящён анализу данных о вакансиях с использованием методов машинного обучения для прогнозирования зарплатной вилки на основе текстовых описаний вакансий. Он включает разведочный анализ данных (EDA), разработку моделей машинного обучения и интерактивную визуализацию результатов с помощью Streamlit.
 
-[Мой colab](https://colab.research.google.com/drive/1U28eC46rhrfeXp8LdPB7ikzGLEe3H94Z#scrollTo=HQUjZeVfwvWp)
+Цель проекта — предоставить инструмент для студентов, соискателей и аналитиков, который поможет лучше понимать рынок труда и прогнозировать потенциальную заработную плату на основе описаний вакансий.
 
-[Производственная практика](https://docs.google.com/document/d/12WNlBlDwwKI5fRwiFaEw5XwpNe5uShgN/edit?usp=drive_link&ouid=106951595867477742129&rtpof=true&sd=true)  
+---
 
-презентации
-моя https://docs.google.com/presentation/d/1eYMcazlFBB8tJIHbFYTGRuwUwGwH0VmRtacLTrSF4QE/edit?slide=id.g35d95458c4c_0_11#slide=id.g35d95458c4c_0_11
+## О проекте
 
-вова https://docs.google.com/presentation/d/1UfwKcJ4dDCN-FuMLjT7qNJr-Ko4w1l3yvRuY5wWme-I/edit?slide=id.g2e04f14b91a_0_251#slide=id.g2e04f14b91a_0_251
+В рамках этого проекта решается задача создания нейронной сети, которая анализирует текстовые описания вакансий и предсказывает диапазон заработной платы. Проект включает:
 
+- **Сбор и обработка данных**: Анализ данных о вакансиях, включая очистку и подготовку текстовых данных.
+- **Разведочный анализ данных (EDA)**: Исследование структуры и особенностей данных для выявления закономерностей.
+- **Модели машинного обучения**: Разработка и обучение моделей для предсказания зарплатной вилки.
+- **Визуализация**: Интерактивный дашборд на Streamlit для удобного представления результатов.
 
------
-  
-[Диплом Стаса](https://docs.google.com/document/d/1Gz30KDkinINJ9LC2hlhhetW0qfM3b4Mj/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
+Проект выполнен в рамках университетской дипломной работы и представляет собой полноценное решение для анализа карьерных возможностей.
 
-[образец](https://drive.google.com/file/d/1-l0TXtUxXWFrTweOYB1NNtR3gsal6SCQ/view?usp=sharing)
+![титульный слайд.png](титульный%20слайд.png)
+---
 
-[Диплом Стаса Джикаева](https://docs.google.com/document/d/1kQipwuVLitPDB8XvRb8XKx80p3vF8awM/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
+## Используемые технологии
 
-[Диплом Жени](https://docs.google.com/document/d/13ttOmQabYnUUZ9zBcbzWzMfNLXYjHsgQ/edit?usp=sharing&ouid=109488965331708966991&rtpof=true&sd=true)
+- **Python**: Основной язык программирования для обработки данных, обучения моделей и создания дашборда.
+- **Streamlit**: Фреймворк для построения интерактивного веб-дашборда с визуализацией данных.
+- **DuckDB**: Легковесная колоночная база данных для эффективного хранения и обработки данных.
+- **MotherDuck**: Платформа для управления и анализа данных с использованием DuckDB в облаке.  
+- **Git LFS**: Работа с большими файлами в git, такими как базы данных `.duckdb`.
 
-[Документация](https://api.hh.ru/openapi/redoc#tag/Poisk-vakansij/)
-[Язык поисковых запросов](https://vladikavkaz.hh.ru/article/1175)
+- Некоторые другие:
+  - Pandas, NumPy, Scikit-learn, BERT, Altair / Plotly Express, Google Colab, DBeaver, Git
 
+---
 
-для локального запуска дэшборда  
-streamlit run streamlit_visualization2.py [-- script args]
+## Ключевые особенности
 
-для создания файлика зависимостей  
-pip freeze > requirements.txt  
+- **Прогнозирование зарплат**: Использование нейронных сетей и методов обработки естественного языка (NLP) для точного предсказания зарплатной вилки.
+- **Интерактивный дашборд**: Визуализация данных с помощью Streamlit для удобного анализа.
 
-Чтобы воспользоваться зависимостями, используйте команду
-[//]: # (python -m venv venv)
-[//]: # (source venv/bin/activate  # На Windows: venv\Scripts\activate)
-pip install -r requirements.txt
+[//]: # (- **Гибкость**: Поддержка локального запуска и воспроизводимости проекта через requirements.txt.)
 
- git lfs migrate info
- git lfs migrate import --include="*.duckdb"
+[//]: # (- **Документация**: Подробные отчёты и презентация, демонстрирующие процесс и результаты работы.)
+
+---
+
+## Установка и запуск
+
+### Требования
+
+- Python 3.8+
+- Git LFS (для работы с большими файлами, такими как `.duckdb`)
+- Зависимости, перечисленные в `requirements.txt`
+
+### Инструкции по установке
+
+1. **Клонируйте репозиторий**:
+   ```bash
+   git clone <ссылка_на_ваш_репозиторий>
+   cd <название_репозитория>
+   ```
+
+2. **Настройка виртуального окружения** (рекомендуется):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # На Windows: venv\Scripts\activate
+   ```
+
+3. **Установка зависимостей**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Настройка Git LFS** (для работы с большими файлами, например, `.duckdb`):
+   ```bash
+   git lfs install
+   git lfs migrate import --include="*.duckdb"
+   ```
+
+5. **Запуск дашборда**:
+   ```bash
+   streamlit run streamlit_visualization2.py
+   ```
+
+6. **Создание файла зависимостей** (если вы вносите изменения):
+   ```bash
+   pip freeze > requirements.txt
+   ```
+
+---
+
+## Документация и ресурсы
+
+- **[Дипломная работа](https://docs.google.com/document/d/1JUV-51H1DrZ6TD4kxBC_keaYbhXPaIOPpTovFzjyvME/edit?usp=sharing)**: Подробное описание проекта и методологии.
+- **[Презентация](https://docs.google.com/presentation/d/15hAT0kxzTLVmUWQyxRpqHNFzmYipeMEIyQOxUcBUE1I/edit?usp=sharing)**: Визуальная демонстрация результатов и выводов.
+- **[Анализ данных (EDA)](https://colab.research.google.com/drive/1cToVuafjyMqCw9ZvpElJ8CwY9Pnyf1cU?authuser=1#scrollTo=z8Ks7dwxhG1f)**: Разведочный анализ данных в Google Colab.
+- **[ссылка на колаб 1](https://colab.research.google.com/drive/1U28eC46rhrfeXp8LdPB7ikzGLEe3H94Z#scrollTo=HQUjZeVfwvWp)**: Исходный код для обучения моделей и анализа данных.(случайный лес и CatBoost)
+- **[ссылка на колаб 2](https://colab.research.google.com/drive/1Ca_Zsomq3cLuEZnA_MYfvcZbJF_ZKZJR?usp=sharing)**: Исходный код с для обучения моделей и анализа данных.(нейронки)
+- **[Отчёт по производственной практике](https://docs.google.com/document/d/12WNlBlDwwKI5fRwiFaEw5XwpNe5uShgN/edit?usp=drive_link&ouid=106951595867477742129&rtpof=true&sd=true)**: Описание этапов выполнения практики.
+- **[Отчёт по преддипломной практике](https://docs.google.com/document/d/1p2klXRqtZOQX2mYbih7GbSIBNjbkRUBs/edit)**: Дополнительные материалы по подготовке проекта.
+
+---
+
+## Использование
+
+1. Запустите дашборд с помощью команды:
+   ```bash
+   streamlit run streamlit_visualization2.py
+   ```
+2. Используйте ноутбуки в Google Colab для изучения кода и воспроизведения результатов.
+3. Ознакомьтесь с документацией для понимания методологии и этапов работы.
+
+---
+
+## Будущие улучшения
+
+- Добавление поддержки дополнительных источников данных о вакансиях.
+- Оптимизация моделей для повышения точности предсказаний.
+- Интеграция с внешними API для получения актуальных данных о рынке труда.
+- Расширение функциональности дашборда для увеличения видов фильтров по различным параметрам.
+
+---
+
+## Контакты
+
+Если у вас есть вопросы, предложения или вы хотите обсудить проект, свяжитесь со мной:
+
+- **Email**: lanadzuceva@gmail.com
+- **GitHub**: https://github.com/Lana-Dzuceva
+- **Telegram**: https://t.me/Lana_hmm
+[//]: # (- **LinkedIn**: )
+
+---
+
+Спасибо за внимание к проекту!

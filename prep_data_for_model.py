@@ -45,6 +45,14 @@ def parse_vacancy(url):
         print(e)
 
 
+experience_mapping = {
+    'Нет опыта': 1,
+    'От 1 года до 3 лет': 2,
+    'От 3 до 6 лет': 3,
+    'Более 6 лет': 4
+}
+
+
 # Функция для подготовки признаков
 def prepare_features(data, mlb, tokenizer, model_for_embedding):
     """
@@ -60,7 +68,7 @@ def prepare_features(data, mlb, tokenizer, model_for_embedding):
     """
     experience = safe_get(safe_get(data, "experience", {}), "name", "")
     # 1. Преобразование experience в числовое значение
-    experience_mapping = {'Нет опыта': 1, 'От 1 года до 3 лет': 2, 'От 3 до 6 лет': 3, 'Более 6 лет': 4}
+    # experience_mapping = {'Нет опыта': 1, 'От 1 года до 3 лет': 2, 'От 3 до 6 лет': 3, 'Более 6 лет': 4}
     experience_numeric = experience_mapping.get(experience, 1)  # По умолчанию 1, если значение неизвестно
 
     input_text = build_input(data)
@@ -105,3 +113,7 @@ def get_rubert_embeddings(texts, tokenizer, model, max_length=512, batch_size=8)
         batch_embeddings = outputs.last_hidden_state[:, 0, :].numpy()
         embeddings.append(batch_embeddings)
     return np.vstack(embeddings)
+
+
+def build_input2(name, description):
+    return f"[SEP] {name} [SEP] {description}"

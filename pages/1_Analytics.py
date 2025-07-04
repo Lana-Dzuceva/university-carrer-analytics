@@ -6,10 +6,17 @@ import plotly.express as px
 from css_fro_streamlit import css
 import altair as alt
 
+# (np.float64(127050.85983732407), np.float64(74488.1467090772))
 st.set_page_config(
     # layout="wide",
     initial_sidebar_state="expanded",
 )
+
+st.sidebar.page_link("streamlit_app.py", label="Главная")
+st.sidebar.page_link("pages/1_Analytics.py", label="Анализ зарплат")
+st.sidebar.page_link("pages/2_Salary_Prediction.py", label="Предсказание заработной платы")
+st.sidebar.page_link("pages/3_Useful_info.py", label="Полезная информация")
+
 # Кастомный CSS для стилизации
 st.markdown(css, unsafe_allow_html=True)
 
@@ -38,25 +45,6 @@ query = f"""
 #     AND schedule IN ({','.join([f"'{sch}'" for sch in selected_schedules])})
 #     AND employment IN ({','.join([f"'{emp}'" for emp in selected_employment])})
 df = con.execute(query).fetchdf()
-
-# region Географическое распределение
-st.subheader("Географическое распределение")
-if not df[['lat', 'lng']].isna().all().all():
-    fig_map = px.scatter_map(
-        df,
-        lat="lat",
-        lon="lng",
-        hover_name="name",
-        hover_data=["city", "salary_from", "experience"],
-        zoom=5,
-        height=500
-    )
-    fig_map.update_layout(mapbox_style="open-street-map")
-    st.plotly_chart(fig_map)
-else:
-    st.write("Нет данных о координатах для выбранных вакансий.")
-
-# endregion
 
 
 # region part-time work
@@ -133,21 +121,49 @@ st.plotly_chart(fig, use_container_width=True)
 
 # endregion
 
+# region Географическое распределение
+st.subheader("Географическое распределение")
+if not df[['lat', 'lng']].isna().all().all():
+    fig_map = px.scatter_map(
+        df,
+        lat="lat",
+        lon="lng",
+        hover_name="name",
+        hover_data=["city", "salary_from", "experience"],
+        zoom=5,
+        height=500
+    )
+    fig_map.update_layout(mapbox_style="open-street-map")
+    st.plotly_chart(fig_map)
+else:
+    st.write("Нет данных о координатах для выбранных вакансий.")
+
+# endregion
+
 
 # region Типы занятости Pie
-# Заменим пропущенные значения на "Не указано"
+
+#  Фильтр по опыту
+st.subheader("🥧 Круговая диаграмма по типу занятости")
+
+exp_filter = st.selectbox(
+    "Фильтр по опыту:",
+    options=["Все"] + sorted(df['experience'].dropna().unique().tolist())
+)
+
+# Подготовка
 df['schedule_clean'] = df['schedule'].fillna('Не указано')
 
-# Посчитаем количество каждой категории
-schedule_counts = df['schedule_clean'].value_counts().reset_index()
+filtered_df = df.copy()
+if exp_filter != "Все":
+    filtered_df = filtered_df[filtered_df['experience'] == exp_filter]
+
+# Группировка
+schedule_counts = filtered_df['schedule_clean'].value_counts().reset_index()
 schedule_counts.columns = ['Тип занятости (schedule)', 'Количество вакансий']
 
-# 📊 Таблица
-# st.subheader("Тип занятости: Таблица распределения")
-# st.dataframe(schedule_counts, use_container_width=True)
 
-# 🥧 Круговая диаграмма (pie chart)
-st.subheader("Тип занятости: Круговая диаграмма")
+# 🥧 Круговая диаграмма
 fig = px.pie(
     schedule_counts,
     names='Тип занятости (schedule)',
