@@ -128,6 +128,7 @@
 - **Email**: lanadzuceva@gmail.com
 - **GitHub**: https://github.com/Lana-Dzuceva
 - **Telegram**: https://t.me/Lana_hmm
+
 [//]: # (- **LinkedIn**: )
 
 ---
