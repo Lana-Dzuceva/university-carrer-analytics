@@ -97,7 +97,8 @@
 - **[ссылка на колаб 1](https://colab.research.google.com/drive/1U28eC46rhrfeXp8LdPB7ikzGLEe3H94Z#scrollTo=HQUjZeVfwvWp)**: Исходный код для обучения моделей и анализа данных.(случайный лес и CatBoost)
 - **[ссылка на колаб 2](https://colab.research.google.com/drive/1Ca_Zsomq3cLuEZnA_MYfvcZbJF_ZKZJR?usp=sharing)**: Исходный код с для обучения моделей и анализа данных.(нейронки)
 - **[Отчёт по производственной практике](https://docs.google.com/document/d/12WNlBlDwwKI5fRwiFaEw5XwpNe5uShgN/edit?usp=drive_link&ouid=106951595867477742129&rtpof=true&sd=true)**: Описание этапов выполнения практики.
-- **[Отчёт по преддипломной практике](https://docs.google.com/document/d/1p2klXRqtZOQX2mYbih7GbSIBNjbkRUBs/edit)**: Дополнительные материалы по подготовке проекта.
+- **[Отчёт по преддипломной практике](https://docs.google.com/document/d/1p2klXRqtZOQX2mYbih7GbSIBNjbkRUBs/edit)**: Описание этапов выполнения практики.
+- **[полезные ссылки](useful_links.md)**: Дополнительные материалы, использованные при создании проекта.
 
 ---
 
