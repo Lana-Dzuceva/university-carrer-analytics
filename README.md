@@ -56,8 +56,8 @@
 
 1. **Клонируйте репозиторий**:
    ```bash
-   git clone <ссылка_на_ваш_репозиторий>
-   cd <название_репозитория>
+   git clone https://github.com/Lana-Dzuceva/university-carrer-analytics.git
+   cd university-carrer-analytics
    ```
 
 2. **Настройка виртуального окружения** (рекомендуется):
@@ -105,7 +105,7 @@
 
 1. Запустите дашборд с помощью команды:
    ```bash
-   streamlit run streamlit_visualization2.py
+   streamlit run streamlit_app.py
    ```
 2. Используйте ноутбуки в Google Colab для изучения кода и воспроизведения результатов.
 3. Ознакомьтесь с документацией для понимания методологии и этапов работы.
